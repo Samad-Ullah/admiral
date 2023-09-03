@@ -1,0 +1,207 @@
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+  .mainContainer {
+    padding: 100px 0;
+  }
+  .div {
+    width: 80%;
+  }
+  .formContainer {
+    background-color: #f0f2f7;
+    border-radius: 15px;
+    padding: 50px 100px;
+    text-align: center;
+    box-shadow: 0 0 10px 2px #00000029;
+  }
+  .form {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    h5 {
+      font-family: ProximaNovaExtraBold;
+      text-align: left;
+      width: 100%;
+      font-size: 32px;
+    }
+  }
+  .headingsContainer {
+    display: flex;
+    text-align: left;
+    justify-content: space-evenly;
+    h6 {
+      font-size: 15px;
+    }
+    h6:nth-child(1) {
+      color: #ee405e;
+    }
+    h6:nth-child(2) {
+      color: #a6a8ac;
+    }
+    h6:nth-child(3) {
+      color: #a6a8ac;
+      span {
+        font-size: 10px;
+      }
+    }
+  }
+  .inputBox1 {
+    background-color: #ffffff;
+    overflow: hidden;
+    text-align: left;
+    border: 2px solid #eeeeee;
+    border-radius: 7px;
+    .input {
+      input {
+        background: transparent;
+        border: none;
+        outline: none;
+        padding: 15px;
+        width: 100%;
+      }
+      select {
+        background: transparent;
+        border: none;
+        outline: none;
+        padding: 15px;
+        width: 100%;
+        color: #6b6f75;
+      }
+    }
+  }
+  .button {
+    font-family: ProximaNovaRegular;
+    color: white;
+    background-color: #ee405e;
+    border-radius: 7px;
+    width: 50%;
+    border: none;
+    outline: none;
+    padding: 15px;
+  }
+  .waiting {
+    font-family: ProximaNovaLight;
+    font-size: 15px;
+    text-align: left;
+  }
+  .tabsContainer {
+    display: flex;
+  }
+  .doubleInputBox {
+    display: flex;
+    justify-content: space-between;
+  }
+  .doubleInputBox2 {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* phones */
+
+  //   write css here
+  .mainContainer {
+    padding: 50px 10px;
+  }
+  .div {
+    width: 100%;
+  }
+  .formContainer {
+    background-color: #f0f2f7;
+    border-radius: 15px;
+    padding: 20px 15px;
+    text-align: center;
+    box-shadow: 0 0 10px 2px #00000029;
+  }
+  .form {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    h5 {
+      font-family: ProximaNovaExtraBold;
+      text-align: left;
+      width: 100%;
+      font-size: 28px;
+    }
+  }
+  .headingsContainer {
+    display: flex;
+    text-align: left;
+    justify-content: space-evenly;
+    h6 {
+      font-size: 15px;
+    }
+    h6:nth-child(1) {
+      color: #ee405e;
+    }
+    h6:nth-child(2) {
+      color: #a6a8ac;
+    }
+    h6:nth-child(3) {
+      color: #a6a8ac;
+      span {
+        font-size: 10px;
+      }
+    }
+  }
+  .inputBox1 {
+    background-color: #ffffff;
+    overflow: hidden;
+    text-align: left;
+    border: 2px solid #eeeeee;
+    border-radius: 7px;
+    .input {
+      input {
+        background: transparent;
+        border: none;
+        outline: none;
+        padding: 15px;
+        width: 100%;
+        height: 45px;
+      }
+      select {
+        background: transparent;
+        border: none;
+        outline: none;
+        padding: 15px;
+        width: 100%;
+        height: 50px;
+        color: #6b6f75;
+        font-size: 12px;
+      }
+      ::placeholder{
+        font-size: 12px;
+      }
+    }
+  }
+  .button {
+    font-family: ProximaNovaRegular;
+    color: white;
+    background-color: #ee405e;
+    border-radius: 7px;
+    width: 50%;
+    border: none;
+    outline: none;
+    padding: 10px;
+  }
+  .waiting {
+    font-family: ProximaNovaLight;
+    font-size: 15px;
+    text-align: left;
+  }
+  .tabsContainer {
+    display: flex;
+  }
+  .doubleInputBox {
+    display: flex;
+    justify-content: space-between;
+  }
+  .doubleInputBox2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .doubleInputBox2 .inputBox1 {
+    padding-bottom: 0px;
+  }
+}

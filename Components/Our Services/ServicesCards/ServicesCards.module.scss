@@ -1,0 +1,96 @@
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+  .cardsContainer {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .cards {
+    margin: 0 8px;
+    width: auto;
+    box-shadow: 0 0 15px 0.1px #0000002b;
+    border-radius: 10px;
+    transition: 0.3s linear;
+    overflow: hidden;
+
+    &:hover {
+      img {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  .cardImage {
+    img {
+      width: 100%;
+      height: 10rem;
+      border-radius: 10px 10px 0px 0px;
+      transition: 0.3s linear;
+      overflow: hidden;
+    }
+  }
+
+  .cardDetail {
+    min-height: 182px;
+    padding: 25px 20px;
+    text-align: left;
+    max-height: 182px;
+    overflow-y: auto;
+    h3 {
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+      font-size: 20px;
+    }
+
+    h6 {
+      color: #636363;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+      font-size: 16px;
+    }
+  }
+  .cardTitle {
+    font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* phones */
+
+  .cardsContainer {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .cards {
+    margin: 0 8px;
+    width: 100%;
+    box-shadow: 0 0 15px 0.1px #0000002b;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .cardImage {
+    img {
+      width: 100%;
+      height: 15rem;
+    }
+  }
+
+  .cardDetail {
+    height: auto;
+    padding: 25px 20px;
+
+    h3 {
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+      font-size: 25px;
+    }
+
+    h6 {
+      color: #636363;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+      font-size: 14px;
+    }
+  }
+}
+.cardDetail::-webkit-scrollbar {
+  width: 4px;
+}

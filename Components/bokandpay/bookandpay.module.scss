@@ -1,0 +1,52 @@
+@media only screen and (min-width: 768px) {
+    // FOR DESKTOP AND TABLET
+.main{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    .heading{
+        font-size: 2rem;
+        font-weight: 500;
+        font-family: 'ProximaNovaRegular' !important;
+    }
+    .subhead{
+        font-size: 1.8rem;
+    }
+    .subhead1{
+        font-size: 1.2rem;
+        color: #727070;
+        font-weight: 700;
+    }
+    .text{
+        color: #727070;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+}
+
+}
+@media only screen and (max-width: 767px) {
+    /* phones */
+  
+    //   write css here
+    .main{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        .heading{
+            font-size: 1.3rem;
+            font-weight: 500;
+        }
+        .subhead{
+            font-size: 1.1rem;
+        }
+        .subhead1{
+            font-size: 1rem;
+            color: #727070;
+            font-weight: 700;
+        }
+        .text{
+            color: #727070;
+            font-size: 1rem;
+            font-weight: 400;
+        }
+}
+}

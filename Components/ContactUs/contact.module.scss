@@ -1,0 +1,135 @@
+@media only screen and (max-width: 767px) {
+  /* phones */
+  .main_container_footer {
+    overflow: hidden;
+  }
+  .cardPayment {
+    border: none;
+    background: transparent !important;
+    .headingMain {
+      color: #707070;
+      font-size: 1.7rem;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+  .input {
+    font-size: 0.8rem !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+
+  .main_container_footer {
+    max-width: 90% !important;
+    .background {
+      background-color: #f0f2f7;
+    }
+    .container_right {
+      background-image: url("../../Assets/footer-image.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 35rem;
+      .overly {
+        background-color: #00000091;
+        height: 100%;
+        text-align: left !important;
+        padding-left: 2rem;
+        padding-top: 2rem;
+        & h2 {
+          color: white;
+          font-size: 2rem;
+          font-weight: 700;
+          text-align: left;
+        }
+        .details_container {
+          margin-top: 1.5rem;
+          .inner_container {
+            display: flex;
+            & div {
+              margin-right: 2rem;
+            }
+          }
+          & a {
+            text-decoration: none;
+          }
+          & h6 {
+            color: white;
+            font-weight: 700;
+          }
+          & p {
+            color: white;
+          }
+          .phone {
+            width: 1.5rem;
+          }
+          & img {
+            margin-bottom: 0.5rem;
+          }
+        }
+      }
+    }
+    .container_left {
+      background-color: #f0f2f7;
+      padding: 0 !important;
+    }
+    .cardPayment {
+      border: none !important;
+      .headingMain {
+        color: #707070;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: auto;
+      }
+    }
+    .buttonPayment {
+      width: 100%;
+      height: 3rem;
+      background-color: #ee405e !important ;
+      color: white !important;
+      border: none !important;
+      border-radius: 0.5rem !important;
+      padding-top: 0.3rem !important;
+      padding-bottom: 0.3rem !important;
+      font-size: 1rem !important;
+      margin-top: 3rem;
+      font-family: "ProximaNovaBold";
+      filter: drop-shadow(1px 5px 5px rgba(75, 56, 56, 0.192));
+    }
+    .label {
+      color: #707070;
+      font-size: 0.8rem;
+      font-weight: bold;
+      float: left;
+    }
+    .input {
+      font-size: 0.8rem !important;
+      border: none;
+      background-color: #f0f2f7 !important;
+    }
+    .icon {
+      margin-top: -1.7rem;
+      margin-left: 0.6rem;
+      float: left;
+    }
+  }
+
+  .label {
+    color: #707070;
+    font-size: 0.8rem;
+    font-weight: bold;
+    float: left;
+  }
+  .input {
+    font-size: 0.8rem !important;
+    border: none;
+    background-color: #f0f2f7 !important;
+  }
+  .icon {
+    margin-top: -1.7rem;
+    margin-left: 0.6rem;
+    float: left;
+  }
+}

@@ -1,0 +1,409 @@
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+  .mainContainer {
+    background-image: url("../../Assets/airport\ transfer.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 82vh;
+  }
+  .container {
+    min-height: 82vh;
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  .formContainer {
+    overflow: hidden;
+    width: 700px;
+    background-color: #ffffff;
+    display: inline-block;
+    border-radius: 11px;
+    text-align: center;
+    position:relative
+  }
+  .form {
+    padding: 10px 30px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    h5 {
+      text-align: left;
+      font-size: 30px;
+    }
+  }
+  .profileContainer {
+    padding: 10px 0;
+    // button {
+    //   padding: 5px 0;
+    //   background: none;
+    //   color: #ee405e;
+    //   border: none;
+    //   outline: 0;
+    //   transition: 0.1s;
+    //   opacity: 1;
+    // }
+    // button:focus {
+    //   outline: 0;
+    //   border: none;
+    // }
+    // button:active {
+    //   outline: 0;
+    //   border: none;
+    //   opacity: 0.5;
+    // }
+    .section2 {
+      text-align: center;
+
+      label {
+        margin-top: 10px;
+        background: #df474b;
+        color: white;
+        width: 120px;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        padding-top: 3px;
+        cursor: pointer;
+      }
+      input[type="file"] {
+        display: none;
+      }
+    }
+  }
+  .profile {
+    border-radius: 50%;
+    img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+    }
+  }
+  .inputBox1 {
+    width: 100%;
+    background-color: #ffffff;
+    overflow: hidden;
+    text-align: left;
+    height: 55px;
+    border: 2px solid #eeeeee;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    label {
+      margin-left: 10px;
+      font-family: ProximaNovaBold;
+      font-size: 12px;
+    }
+    .input {
+      margin-top: -7px;
+      margin-left: 10px;
+      font-size: 13px;
+      input {
+        width: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+      }
+      img {
+        margin-right: 10px;
+      }
+    }
+  }
+  .inputBox {
+    width: 100%;
+    background-color: #f0f2f7;
+    overflow: hidden;
+    color: #6b6f75;
+    text-align: left;
+    height: 55px;
+    border: 2px solid #eeeeee;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    label {
+      margin-left: 10px;
+      font-family: ProximaNovaBold;
+      font-size: 12px;
+    }
+    .input {
+      margin-top: -10px;
+      margin-left: 10px;
+      input {
+        width: 100%;
+        background: transparent;
+        font-size: 13px;
+        border: none;
+        outline: none;
+      }
+
+      input[type="time"] {
+        letter-spacing: 5px;
+      }
+      img {
+        margin-right: 10px;
+      }
+    }
+  }
+  .button {
+    font-family: ProximaNovaRegular;
+    color: white;
+    background-color: #ee405e;
+    width: 100%;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    height: 40px;
+  }
+  .buttonContainer {
+    padding: 10px 0;
+    button {
+      width: 80%;
+      font-size: 15px;
+      padding: 10px;
+      background-color: #ee405e;
+      color: #ffffff;
+      font-family: ProximaNovaRegular;
+      border-radius: 7px;
+      border: none;
+      outline: 0;
+      transition: 0.1s;
+      opacity: 1;
+    }
+    button:focus {
+      outline: 0;
+      border: none;
+    }
+    button:active {
+      outline: 0;
+      border: none;
+      opacity: 0.5;
+    }
+  }
+  .doubleInputBox {
+    display: flex;
+    .inputBox:nth-child(1) {
+      margin-right: 3px;
+    }
+    .inputBox1:nth-child(1) {
+      margin-right: 3px;
+    }
+    .inputBox:nth-child(2) {
+      margin-left: 3px;
+    }
+  }
+  .menuButton {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* phones */
+
+  .mainContainer {
+    background-image: url("../../Assets/airport\ transfer.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 82vh;
+  }
+  .container {
+    min-height: 82vh;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  .formContainer {
+    overflow: hidden;
+    width: 90%;
+    background-color: #ffffff;
+    display: inline-block;
+    border-radius: 11px;
+    text-align: center;
+  }
+  .form {
+    padding: 10px 30px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    h5 {
+      text-align: left;
+      font-size: 30px;
+    }
+  }
+  .profileContainer {
+    padding: 10px 0;
+    // button {
+    //   padding: 5px 0;
+    //   background: none;
+    //   color: #ee405e;
+    //   border: none;
+    //   outline: 0;
+    //   transition: 0.1s;
+    //   opacity: 1;
+    // }
+    // button:focus {
+    //   outline: 0;
+    //   border: none;
+    // }
+    // button:active {
+    //   outline: 0;
+    //   border: none;
+    //   opacity: 0.5;
+    // }
+    .section2 {
+      text-align: center;
+
+      label {
+        margin-top: 10px;
+        background: #df474b;
+        color: white;
+        width: 120px;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        padding-top: 3px;
+        cursor: pointer;
+      }
+      input[type="file"] {
+        display: none;
+      }
+    }
+  }
+  .profile {
+    border-radius: 50%;
+    img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+    }
+  }
+  .inputBox1 {
+    width: 100%;
+    background-color: #ffffff;
+    overflow: hidden;
+    text-align: left;
+    height: 55px;
+    border: 2px solid #eeeeee;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    label {
+      margin-left: 10px;
+      font-family: ProximaNovaBold;
+      font-size: 12px;
+    }
+    .input {
+      margin-top: -7px;
+      margin-left: 10px;
+      font-size: 13px;
+      input {
+        width: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+      }
+      img {
+        margin-right: 10px;
+      }
+    }
+  }
+  .inputBox {
+    width: 100%;
+    background-color: #f0f2f7;
+    overflow: hidden;
+    color: #6b6f75;
+    text-align: left;
+    height: 55px;
+    border: 2px solid #eeeeee;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    label {
+      margin-left: 10px;
+      font-family: ProximaNovaBold;
+      font-size: 12px;
+    }
+    .input {
+      margin-top: -10px;
+      margin-left: 10px;
+      input {
+        width: 100%;
+        background: transparent;
+        font-size: 13px;
+        border: none;
+        outline: none;
+      }
+      input[type="time"] {
+        letter-spacing: 5px;
+      }
+      img {
+        margin-right: 10px;
+      }
+    }
+  }
+  .button {
+    font-family: ProximaNovaRegular;
+    color: white;
+    background-color: #ee405e;
+    width: 100%;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    height: 40px;
+  }
+  .buttonContainer {
+    padding: 10px 0;
+    button {
+      width: 80%;
+      font-size: 15px;
+      padding: 10px;
+      background-color: #ee405e;
+      color: #ffffff;
+      font-family: ProximaNovaRegular;
+      border-radius: 7px;
+      border: none;
+      outline: 0;
+      transition: 0.1s;
+      opacity: 1;
+    }
+    button:focus {
+      outline: 0;
+      border: none;
+    }
+    button:active {
+      outline: 0;
+      border: none;
+      opacity: 0.5;
+    }
+  }
+  .doubleInputBox {
+    display: flex;
+    .inputBox:nth-child(1) {
+      margin-right: 3px;
+    }
+    .inputBox1:nth-child(1) {
+      margin-right: 3px;
+    }
+    .inputBox:nth-child(2) {
+      margin-left: 3px;
+    }
+  }
+  .menuButton {
+    display: flex;
+    height: 50px !important;
+    background-color: white;
+
+    text-align: center;
+    .togButton {
+      margin-top: 10px;
+      margin-right: 130px;
+      margin-left: 20px;
+      button {
+        background-color: transparent !important;
+        border: none !important;
+        color: red !important;
+        font-size: 20px;
+        font-weight: 800;
+      }
+    }
+  }
+  .crossicon{
+    position: absolute;
+    right: 0;
+    background: #e03d5a;
+    padding: 11px;
+    color: #ffff;
+  }
+}

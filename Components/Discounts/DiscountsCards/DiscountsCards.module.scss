@@ -1,0 +1,86 @@
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+  .cardsContainer {
+    display: inline-block;
+  }
+  .cards {
+    // display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    width: 250px;
+    height: 300px;
+    border: 1px solid #dadada;
+    background-color: #f9f9f9;
+    h5:nth-child(1) {
+      font-family: ProximaNovaBold;
+      font-size: 50px;
+    }
+
+    h5:nth-child(2) {
+      font-family: ProximaNovaRegular;
+      font-size: 15px;
+    }
+    h6 {
+      color: #777777;
+      width: 70%;
+      font-size: 12px;
+      font-family: ProximaNovaLight;
+      padding-top: 20px;
+    }
+  }
+  sup {
+    font-size: 25px;
+  }
+  .button {
+    background-color: #ee405e;
+    border: 1px solid #dadada;
+    margin-top: 40px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* phones */
+
+  //   write css here
+  .cardsContainer {
+    display: inline-block;
+  }
+  .cards {
+    // display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    width: 250px;
+    height: 300px;
+    border: 1px solid #dadada;
+    background-color: #f9f9f9;
+    h5:nth-child(1) {
+      font-family: ProximaNovaBold;
+      font-size: 50px;
+    }
+
+    h5:nth-child(2) {
+      font-family: ProximaNovaRegular;
+      font-size: 15px;
+    }
+    h6 {
+      color: #777777;
+      width: 70%;
+      font-size: 12px;
+      font-family: ProximaNovaLight;
+      padding-top: 20px;
+    }
+  }
+  sup {
+    font-size: 25px;
+  }
+  .button {
+    background-color: #ee405e;
+    border: 1px solid #dadada;
+    margin-top: 40px;
+  }
+}

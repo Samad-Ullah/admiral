@@ -1,0 +1,41 @@
+@media only screen and (min-width: 768px) {
+    // FOR DESKTOP AND TABLET
+    .content{
+        align-items: center;
+    }
+    .heading{
+        font-size: 1.5rem;
+        font-weight: 600; 
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+    .ol li{
+        text-align: left;
+        font-size: 1rem;
+        margin-left: -1.5rem;
+        // text-indent: -0.5em;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones */ 
+    .content{
+        align-items: center;
+        text-align: center;
+        margin-top: -3rem;
+    }
+    .heading{
+        font-size: 1.2rem;
+        font-weight: 600; 
+        text-align: left;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    .ol li{
+        text-align: left;
+        font-size: 0.9rem;
+        margin-left: 1rem;
+    }
+  
+    //   write css here
+}

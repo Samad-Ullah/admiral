@@ -1,0 +1,4 @@
+export const CmsActionTypes = {
+  FETCH_FLEET_PAGE: "FETCH_FLEET_PAGE",
+  FETCH_FLEET_PAGE_ERROR: "FETCH_FLEET_PAGE_ERROR",
+};

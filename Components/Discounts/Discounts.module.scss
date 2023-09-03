@@ -1,0 +1,100 @@
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+  .mainContainer {
+    background-color: #ffffff;
+    min-height: 600px;
+    text-align: center;
+  }
+  .servicesHeadingContainer {
+    padding-top: 40px;
+    text-align: center;
+    h1 {
+      font-size: 34px;
+      font-family: ProximaNovaBold;
+    }
+    h5 {
+      font-size: 18px;
+      font-family: ProximaNovaRegular;
+    }
+  }
+  .cardsContainer {
+    text-align: center;
+  }
+  .cards {
+    display: inline-block;
+    margin: 0 8px;
+    width: 300px;
+    box-shadow: 0 0 15px 0.1px #0000002b;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .cardDetail {
+    h1 {
+      font-family: ProximaNovaBold;
+      font-size: 28px;
+    }
+    h6 {
+      color: #636363;
+      font-family: ProximaNovaThin;
+      font-size: 22px;
+    }
+  }
+  .someInfo {
+    font-size: 24px;
+    font-family: ProximaNovaRegular;
+    span {
+      color: #ee405e;
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* phones */
+
+  //   write css here
+  .mainContainer {
+    background-color: #ffffff;
+    height: 550px;
+    text-align: center;
+  }
+  .servicesHeadingContainer {
+    padding-top: 30px;
+    text-align: center;
+    h1 {
+      font-size: 23px;
+      font-family: ProximaNovaBold;
+    }
+    h5 {
+      font-size: 18px;
+      font-family: ProximaNovaRegular;
+    }
+  }
+  .cardsContainer {
+    text-align: center;
+  }
+  .cards {
+    display: inline-block;
+    margin: 0 8px;
+    width: 300px;
+    box-shadow: 0 0 15px 0.1px #0000002b;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .cardDetail {
+    h1 {
+      font-family: ProximaNovaBold;
+      font-size: 22px;
+    }
+    h6 {
+      color: #636363;
+      font-family: ProximaNovaThin;
+      font-size: 11px;
+    }
+  }
+  .someInfo {
+    font-size: 12px;
+    font-family: ProximaNovaRegular;
+    span {
+      color: #ee405e;
+    }
+  }
+}

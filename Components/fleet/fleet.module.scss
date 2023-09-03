@@ -1,0 +1,70 @@
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+
+  .head {
+    padding-top: 50px;
+    align-content: center;
+    width: 95%;
+    text-align: center;
+    margin-top: 3rem;
+    .heading {
+      font-size: 1.8rem;
+      font-weight: 700;
+    }
+    .headingcont {
+      font-size: 0.9rem;
+      color: #727070;
+    }
+  }
+  .button {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    border-radius: unset;
+    background-color: #ee405e;
+    color: white;
+    border: transparent;
+    margin-top: 2rem;
+    font-family: 'ProximaNovaBold';
+  }
+  .button:hover {
+    background-color: #ee405e;
+  }
+  .button:focus {
+    background-color: #ee405e;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* phones */
+
+  //   write css here
+  .head {
+    padding-top: 2px;
+    align-content: center;
+    width: 95%;
+    margin-top: 3rem;
+    .heading {
+      font-size: 1.8rem;
+      font-weight: 700;
+      text-align: center;
+    }
+    .headingcont {
+      font-size: 0.9rem;
+      color: #727070;
+    }
+  }
+  .button {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    border-radius: unset;
+    background-color: #ee405e;
+    color: white;
+    border: transparent;
+    font-size: 0.9rem;
+  }
+  .button:hover {
+    background-color: #ee405e;
+  }
+  .button:focus {
+    background-color: #ee405e;
+  }
+}

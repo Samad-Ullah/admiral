@@ -1,0 +1,31 @@
+.carousel{
+  height: 500px;
+}
+.carousel-indicators li {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 10px;
+  height: 10px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #E5E5E5;
+  background-clip: padding-box;
+  border-radius: 50%;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: 1;
+  transition: opacity .6s ease;
+}
+.carousel-indicators .active{
+  background-color: #949494;
+}
+.carousel-item{
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+}
+.carousel-inner{
+  height: 100%;
+}

@@ -1,0 +1,63 @@
+@media only screen and (min-width: 768px) {
+    // FOR DESKTOP AND TABLET
+    .main{
+        margin-top: 3rem;
+    .headlist{
+        text-align:left;
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+    .ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        text-align:left;
+        margin-top: -0.5rem;
+        font-size: 0.9rem;
+      }
+    .ul li {
+        margin-top: 0.2rem;
+    }
+      
+      .ul li::before {
+        // content: "■";
+        content: "\25A0";
+        color:#EE405E;
+      }
+      
+    }
+}
+@media only screen and (max-width: 767px) {
+    /* phones */
+  
+    //   write css here
+    .main{
+      margin-top: -2rem;
+      
+  .headlist{
+      font-size: 1.1rem;
+      font-weight: 700;
+      text-align: center;
+  }
+  .ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align:left;
+      margin-top: -0.5rem;
+      font-size: 0.9rem;
+      margin-bottom: 0.9rem;
+    }
+  .ul li {
+      margin-top: 0.2rem;
+      margin-bottom: 0.5rem;
+  }
+    
+    .ul li::before {
+      // content: "■";
+      content: "\25A0";
+      color:#EE405E;
+    }
+    
+  }
+}

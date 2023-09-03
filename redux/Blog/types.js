@@ -1,0 +1,4 @@
+export const CmsActionTypes = {
+  FETCH_BLOG_PAGE: "FETCH_BLOG_PAGE",
+  FETCH_BLOG_PAGE_ERROR: "FETCH_BLOG_PAGE_ERROR",
+};

@@ -1,0 +1,53 @@
+.final {
+  height: 350px;
+}
+.bbb {
+  background-color: transparent !important;
+}
+@media only screen and (min-width: 668px) {
+  // FOR DESKTOP AND TABLET
+  .final {
+    height: 350px;
+  }
+  .reverse {
+    display: flex;
+    flex-direction: row;
+    .avatarside {
+      margin-left: -0.9rem;
+      text-align: center;
+      font-size: 0.9rem;
+      p {
+        margin-top: 1rem;
+      }
+    }
+    .para {
+      margin-top: 1rem;
+      margin-bottom: -0.4rem;
+      font-size: 1rem;
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* phones */
+  .reverse {
+    display: flex;
+    flex-direction: column-reverse;
+
+    .avatarside {
+      text-align: center;
+      font-size: 0.9rem;
+      p {
+        margin-top: 1rem;
+      }
+    }
+    .para {
+      margin-top: 1rem;
+      margin-bottom: -0.4rem;
+      font-size: 0.9rem;
+    }
+  }
+  .final {
+    height: 0px;
+  }
+  //   write css here
+}

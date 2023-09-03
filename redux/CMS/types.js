@@ -1,0 +1,4 @@
+export const CmsActionTypes = {
+  FETCH_HOME_PAGE: "FETCH_HOME_PAGE",
+  FETCH_HOME_PAGE_ERROR: "FETCH_HOME_PAGE_ERROR",
+};

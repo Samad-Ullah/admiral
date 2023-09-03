@@ -1,0 +1,102 @@
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+  .mainContainer {
+    background-color: #ffffff;
+    padding-top: 70px;
+  }
+  .heading {
+    text-align: center;
+    font-family: ProximaNovaBold;
+    color: black;
+    font-size: 42px;
+  }
+  .designContainer {
+    text-align: center;
+    img:nth-child(1) {
+      transform: scaleX(-1);
+    }
+    span {
+      display: inline-block;
+      width: 100px;
+      height: 4px;
+      border-top: 2px solid #e5e5e5;
+    }
+    span:nth-child(2) {
+      margin-right: 15px;
+      margin-left: 10px;
+    }
+    span:nth-child(4) {
+      margin-right: 10px;
+      margin-left: 15px;
+    }
+  }
+  .imagesContainer {
+    text-align: center;
+    padding-top: 30px;
+  }
+  .images {
+    display: inline-block;
+    position: relative;
+    h4 {
+      position: absolute;
+      font-family: ProximaNovaRegular;
+      color: white;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 100;
+      font-size: 24px;
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* phones */
+  .mainContainer {
+    background-color: #ffffff;
+    padding-top: 70px;
+  }
+  .heading {
+    text-align: center;
+    font-family: ProximaNovaBold;
+    color: black;
+    font-size: 42px;
+  }
+  .designContainer {
+    text-align: center;
+    img:nth-child(1) {
+      transform: scaleX(-1);
+    }
+    span {
+      display: inline-block;
+      width: 100px;
+      height: 4px;
+      border-top: 2px solid #e5e5e5;
+    }
+    span:nth-child(2) {
+      margin-right: 15px;
+      margin-left: 10px;
+    }
+    span:nth-child(4) {
+      margin-right: 10px;
+      margin-left: 15px;
+    }
+  }
+  .imagesContainer {
+    text-align: center;
+    padding-top: 30px;
+  }
+  .images {
+    display: inline-block;
+    position: relative;
+    h4 {
+      position: absolute;
+      font-family: ProximaNovaRegular;
+      color: white;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 100;
+      font-size: 24px;
+    }
+  }
+}

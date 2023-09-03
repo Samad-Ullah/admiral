@@ -1,0 +1,99 @@
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+  .main {
+    align-content: center;
+    text-align: center;
+    .link {
+      font-size: 0.8rem;
+      width: 130px;
+      text-align: left;
+      color: black;
+      .active link {
+        border: none;
+        color: #ee405e;
+      }
+    }
+    .cars{
+      padding-left: 1rem;
+      padding-right: 1rem;
+     }
+    .car_description {
+      font-size: 0.9rem;
+      font-weight: 400;
+    }
+    .car_title {
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+    .image{
+      width: 30rem;
+    }
+    .img{
+      width:100%;
+       height:100%
+    }
+    
+    .heading {
+      align-items: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      // margin-top: 6rem;
+    }
+  }
+  .button {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    color: white;
+    background-color: #ee405e;
+    border: transparent;
+    margin-top: 3rem;
+    border-radius: unset;
+  }
+  .button:hover {
+    background-color: #ee405e;
+  }
+  .button:focus {
+    background-color: #ee405e;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .main {
+    align-content: center;
+    text-align: center;
+   .cars{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+   }
+    .car_description {
+      font-size: 0.6rem;
+      font-weight: 400;
+    }
+    .car_title {
+      font-size: 1rem;
+      font-weight: 500;
+    }
+    .image{
+      width: 14rem;
+    }
+    .img{
+      width:100%;
+       height:100%
+    }
+     }
+  .button {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    color: white;
+    background-color: #ee405e;
+    border: transparent;
+    margin-top: 3rem;
+    border-radius: unset;
+  }
+  .button:hover {
+    background-color: #ee405e;
+  }
+  .button:focus {
+    background-color: #ee405e;
+  }
+}

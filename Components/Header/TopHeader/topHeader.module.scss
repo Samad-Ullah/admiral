@@ -1,0 +1,187 @@
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+  .main_container {
+    background: #212b36 0% 0% no-repeat padding-box;
+    padding-left: 4rem;
+    padding-right: 4rem;
+
+    .nav_container {
+      h1 {
+        font-size: 36px !important;
+      }
+
+      h2 {
+        font-size: 24px !important;
+      }
+
+      h3 {
+        font-size: 19px !important;
+      }
+
+      h4 {
+        font-size: 17px !important;
+      }
+
+      h5 {
+        font-size: 22px !important;
+      }
+
+      p {
+        font-size: 14px !important;
+      }
+
+      width: 100%;
+      height: 40px;
+      opacity: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+
+      .nav_inner_container {
+        background-color: transparent;
+        width: 85%;
+        display: contents;
+
+        .dropdown {
+          button {
+            background: none !important;
+            border: none !important;
+            transition: none !important;
+
+            &:focus {
+              border: none !important;
+              outline: none !important;
+            }
+          }
+
+          .profile {
+            display: flex;
+            align-items: center;
+
+            .picContainer {
+              width: 40px;
+              clip-path: circle(45% at 50% 50%);
+            }
+
+            .headingContainer {
+              margin: 0 0px 0 8px;
+
+              h6 {
+                margin: 0;
+                color: white;
+                font-size: 16px;
+                font-family: ProximaNovaBold;
+              }
+            }
+
+            .iconContainer {
+              margin-left: 8px;
+              width: 10px;
+
+              .icon {
+                path {
+                  fill: #ee405e;
+                }
+              }
+            }
+          }
+        }
+
+        .contact_container {
+          display: flex;
+          margin-right: auto;
+
+          .contact_item {
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+            font-family: "ProximaNovaBold";
+
+            & img {
+              margin-right: 0.3rem;
+              width: 14px;
+              height: auto;
+            }
+
+            & a {
+              color: white;
+              margin: 0 !important;
+              text-decoration: none !important;
+              font-family: "ProximaNovaRegular";
+            }
+          }
+        }
+
+        .auth_container {
+          float: right;
+
+          & Button {
+            background-color: transparent;
+            border: none;
+            color: #ee405e;
+            font-family: "ProximaNovaBold";
+          }
+
+          .color_white {
+            color: white !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 962px) {
+  .hh {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 962px) {
+  .auth_container {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* phones */
+
+  //   write css here
+  //   .nav_container {
+  //     h1 {
+  //       font-size: 25px !important;
+  //     }
+  //     h2 {
+  //       font-size: 20px !important;
+  //     }
+  //     h3 {
+  //       font-size: 17px !important;
+  //     }
+  //     h4 {
+  //       font-size: 16px !important;
+  //     }
+  //     h5 {
+  //       font-size: 15px !important;
+  //     }
+  //     p {
+  //       font-size: 14px !important;
+  //     }
+  //     width: 100%;
+  //     height: 70px;
+  //     background: #ffffff 0% 0% no-repeat padding-box;
+  //     box-shadow: 0px 8px 16px #00000029;
+  //     border: 1px solid #e2e2e2;
+  //     opacity: 1;
+  //     display: flex;
+  //     align-items: center;
+  //     justify-content: center;
+  //     padding: 20px;
+  //     img {
+  //       width: 170px;
+  //       height: auto;
+  //     }
+  //   }
+  .main_container {
+    display: none !important;
+  }
+}

@@ -1,0 +1,25 @@
+.autocomplete-dropdown-container{
+    position: absolute !important;
+}
+.suggestion-item{
+    height: auto;
+    width: auto;
+    background-color: white;
+    border-bottom: 1px black dotted;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: rgb(88, 86, 86);
+    font-weight: 600;
+}
+.suggestion-item--active{
+    height: auto;
+    width: auto;
+    background-color: white;
+    border-bottom: 1px  #ee405e dotted;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color:  #ee405e;
+    font-weight: 700;
+}

@@ -1,0 +1,110 @@
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+  .maincard {
+    padding: 30px 0;
+    border-bottom: 1px solid #eee;
+  }
+  .image {
+    border-radius: 4px;
+  }
+  .padding {
+    padding-left: 20px;
+  }
+  .heading {
+    color: #000000;
+    font-size: 18px;
+    font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif !important;
+    margin: 0;
+  }
+  .fix {
+    display: flex;
+    flex-direction: row;
+  }
+  .star {
+    img {
+      margin-right: 10px;
+    }
+  }
+  .headingcont {
+    color: #636363;
+    font-size: 14px;
+    font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif !important;
+    margin: 0;
+  }
+  .headingpayment {
+    font-size: 16px;
+    font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif !important;
+  }
+  .button {
+    background-color: #ee405e;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px 22px;
+    font-size: 16px;
+    font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif !important;
+    border-radius: 2px;
+    width: 100%;
+  }
+  .payment {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* phones */
+
+  .maincard {
+    padding: 30px 0;
+    padding-left: 10px;
+  }
+  .image {
+    border-radius: 4px;
+    width: 100%;
+  }
+  .heading {
+    padding: 0;
+    margin: 0;
+    color: #373737;
+    font-size: 18px;
+    font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif !important;
+  }
+  .fix {
+    display: flex;
+    flex-direction: column;
+  }
+  .star {
+    padding: 0;
+    margin: 0;
+    img {
+      margin-right: 5px;
+      width: 16px;
+    }
+  }
+  .headingcont {
+    color: #636363;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif !important;
+  }
+  .headingpayment {
+    font-size: 15px;
+    font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif !important;
+    padding: 0;
+    margin: 0;
+  }
+  .button {
+    background-color: #ee405e;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 5px 20px;
+    font-size: 15px;
+    font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif !important;
+    border-radius: 2px;
+  }
+  .payment {
+    padding-top: 10px;
+    text-align: left;
+  }
+}

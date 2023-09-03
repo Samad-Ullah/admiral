@@ -1,0 +1,489 @@
+@media only screen and (max-width: 1200px) {
+  .discription {
+    max-width: 100%;
+  }
+
+  .travel {
+    margin-top: -320px;
+    margin-bottom: 4vh;
+  }
+
+  .heading1 {
+    height: "";
+  }
+}
+
+.imageBannerContainer {
+  overflow: hidden;
+  position: relative;
+  top: -70px;
+  height: 330px;
+}
+
+.heading1 {
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.bannerImageAdjust {
+  margin-top: 102px !important;
+  min-height: 100%;
+  min-height: 100%;
+}
+
+.features {
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+  .mainContainer {
+    background-image: url("../../Assets/airport\ transfer.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 82vh;
+    position: relative;
+    width: 100%;
+  }
+
+  .discription {
+    text-align: left !important;
+  }
+
+  .mainContainer::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+  }
+
+   .floatingContainer {
+    position: fixed;
+    top: 75%;
+    right: 1%;
+    z-index: 1000;
+  }
+
+  .floatingButton {
+    // display: inline-block;
+    transition: 0.2s ease-in-out;
+    outline: 0;
+    border: none;
+    position: relative;
+    margin: 0 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ee405e;
+
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      border-radius: 10px;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  .floatingButton:focus {
+    border: none;
+    outline: 0;
+  }
+
+  .floatingButton:active {
+    opacity: 0.5;
+    border: none;
+    outline: 0;
+  }
+
+  .headingsContainer {
+    z-index: 1;
+    color: white;
+    position: absolute;
+    left: 6%;
+    top: 50%;
+    width: 600px;
+    transform: translateY(-50%);
+
+    h6 {
+      line-height: 200%;
+      color: #ee405e;
+      font-size: 15px;
+      font-family: ProximaNovaBold;
+      //   font-weight: bold;
+    }
+
+    h1 {
+      font-size: 63px;
+      font-family: ProximaNovaBold;
+
+      span {
+        font-family: ProximaNovaLight;
+      }
+    }
+  }
+
+  .discription {
+    flex: 0 0 100%;
+    text-align: justify;
+  }
+
+  .discription {
+    h6:nth-child(1) {
+      color: #ee405e;
+      font-family: ProximaNovaRegular;
+      font-size: 16px;
+    }
+
+    h3:nth-child(3) {
+      font-size: 34px;
+      font-family: ProximaNovaRegular;
+      padding-top: 30px;
+      line-height: 100%;
+    }
+
+    span:nth-child(2) {
+      display: inline-block;
+      width: 50px;
+      border-top: 2px solid #ee405e;
+    }
+
+    h6:nth-child(4) {
+      color: #727070;
+      font-family: ProximaNovaLight;
+      font-size: 16px;
+      padding-top: 10px;
+    }
+  }
+
+  .imageContainer {
+    img {
+      height: 100%;
+      width: 100%;
+      min-height: 68% !important;
+      margin-top: 3px !important;
+      border-radius: 10px;
+    }
+  }
+
+  .discription1 {
+    h6:nth-child(1) {
+      color: #020101;
+      font-family: ProximaNovaRegular;
+    }
+
+    h6 {
+      color: #191919;
+      font-family: ProximaNovaLight;
+      font-size: 17px;
+      padding-top: 10px;
+    }
+
+    li {
+      list-style-type: none;
+      font-family: ProximaNovaBold;
+      padding-top: 20px;
+    }
+
+    li::before {
+      content: "■";
+      color: red;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+  }
+
+  .imageContainer1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .logoContainer {
+    padding-top: 100px;
+    text-align: center;
+  }
+
+  .heading1 {
+    h3 {
+      color: #ee405e;
+      font-family: ProximaNovaBold;
+    }
+
+    h6 {
+      color: #020101;
+      font-family: ProximaNovaRegular;
+    }
+  }
+
+  .featuresContainer {
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .features {
+    vertical-align: top;
+
+    h6 {
+      font-family: ProximaNovaBold;
+      font-size: 28px;
+      padding-top: 15px;
+    }
+  }
+
+  .menuButton {
+    display: none;
+  }
+}
+     
+@media only screen and (max-width: 992px) {
+  .travel {
+    margin-top: -266px;
+  }
+}
+
+// @media only screen and (min-width: 1999px) and (max-width: 1200px) {
+//   .featuresContainer{
+//     border: 2px solid red; 
+//   }
+// }
+@media only screen and (max-width: 767px) {
+  .mainContainer {
+    background-image: url("../../Assets/airport\ transfer.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .travel {
+    margin-top: -194px;
+  }
+
+  .mainContainer::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+  }
+
+   .floatingContainer {
+    position: fixed;
+    top: 75%;
+    right: 1%;
+    z-index: 1000;
+  }
+
+  .floatingButton {
+    // display: inline-block;
+    transition: 0.2s ease-in-out;
+    outline: 0;
+    border: none;
+    position: relative;
+    margin: 0 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ee405e;
+
+    img {
+      position: absolute;
+      border-radius: 10px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  .floatingButton:focus {
+    border: none;
+    outline: 0;
+  }
+
+  .floatingButton:active {
+    opacity: 0.5;
+    border: none;
+    outline: 0;
+  }
+
+  .headingsContainer {
+    z-index: 1;
+    color: white;
+    position: absolute;
+    left: 6%;
+    top: 50%;
+    width: 600px;
+    transform: translateY(-50%);
+
+    h6 {
+      line-height: 200%;
+      color: #ee405e;
+      font-size: 15px;
+      font-family: ProximaNovaBold;
+      //   font-weight: bold;
+    }
+
+    h1 {
+      font-size: 63px;
+      font-family: ProximaNovaBold;
+
+      span {
+        font-family: ProximaNovaLight;
+      }
+    }
+  }
+
+  .discription {
+    h6:nth-child(1) {
+      color: #ee405e;
+      font-family: ProximaNovaRegular;
+      font-size: 16px;
+    }
+
+    h3:nth-child(3) {
+      font-size: 34px;
+      font-family: ProximaNovaRegular;
+      padding-top: 30px;
+      line-height: 100%;
+    }
+
+    span:nth-child(2) {
+      display: inline-block;
+      width: 50px;
+      border-top: 2px solid #ee405e;
+    }
+
+    h6:nth-child(4) {
+      color: #727070;
+      font-family: ProximaNovaLight;
+      font-size: 16px;
+      padding-top: 10px;
+    }
+
+    text-align: justify;
+  }
+
+  .imageContainer {
+    img {
+      height: 100%;
+      border-radius: 10px;
+      width: 100%;
+      min-height: 68% !important;
+      margin-top: 3px !important;
+    }
+  }
+
+  .discription1 {
+    h6:nth-child(1) {
+      color: #020101;
+      font-family: ProximaNovaRegular;
+    }
+
+    h6 {
+      color: #191919;
+      font-family: ProximaNovaLight;
+      font-size: 17px;
+      padding-top: 10px;
+    }
+
+    li {
+      list-style-type: none;
+      font-family: ProximaNovaBold;
+      padding-top: 20px;
+    }
+
+    li::before {
+      content: "■";
+      color: red;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+  }
+
+  .imageContainer1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .logoContainer {
+    padding-top: 100px;
+    text-align: center;
+  }
+
+  .heading1 {
+    h3 {
+      color: #ee405e;
+      font-family: ProximaNovaBold;
+    }
+
+    h6 {
+      color: #020101;
+      font-family: ProximaNovaRegular;
+    }
+  }
+
+  .featuresContainer {
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .features {
+    vertical-align: top;
+
+    h6 {
+      font-family: ProximaNovaBold;
+      font-size: 28px;
+      padding-top: 15px;
+    }
+  }
+
+  .menuButton {
+    display: flex;
+    height: 50px !important;
+    background-color: white;
+
+    text-align: center;
+
+    .togButton {
+      margin-top: 10px;
+      margin-right: 130px;
+      margin-left: 20px;
+
+      button {
+        background-color: transparent !important;
+        border: none !important;
+        color: red !important;
+        font-size: 20px;
+        font-weight: 800;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 478px) {
+  .travel {
+    margin-top: -180px;
+  }
+}

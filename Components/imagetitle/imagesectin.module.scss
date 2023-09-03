@@ -1,0 +1,49 @@
+@media only screen and (min-width: 768px) {
+    // FOR DESKTOP AND TABLET
+.main{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    .im{
+        margin-bottom: 3.5rem;
+    }
+    .heading{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .setcenter{
+        text-align: center;
+        margin-top: 1.2rem;
+        margin-bottom: 0.4rem;
+    .headingsub{
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    
+}
+}
+
+}
+@media only screen and (max-width: 767px) {
+    /* phones */
+    .main{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        .im{
+            margin-bottom: 3.2rem;
+        }
+        .heading{
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        .setcenter{
+            text-align: center;
+            margin-top: 1.2rem;
+            margin-bottom: 0.4rem;
+        .headingsub{
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+    }
+    }
+    //   write css here
+}

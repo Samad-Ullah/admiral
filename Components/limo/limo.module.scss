@@ -1,0 +1,33 @@
+@media only screen and (min-width: 768px) {
+    // FOR DESKTOP AND TABLET
+
+.servicesection{
+    margin-top: 3rem;
+}
+.service{
+    color:#EE405E;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.services{
+    font-size: 1rem;
+    font-weight: bold;
+}
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+.servicesection{
+    margin-top: 3rem;
+}
+.service{
+    color:#EE405E;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.services{
+    font-size: 1rem;
+    font-weight: bold;
+}
+}

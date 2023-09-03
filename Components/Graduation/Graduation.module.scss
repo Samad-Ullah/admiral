@@ -1,0 +1,278 @@
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+  .mainContainer {
+    background-image: url("../../Assets/University-of-St-Thomas-Commencement.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+    margin: 0;
+  }
+  .mainContainer::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+  }
+   .floatingContainer {
+    position: fixed;
+    top: 75%;
+    right: 1%;
+    z-index: 1000;
+  }
+  .floatingButton {
+    // display: inline-block;
+    transition: 0.2s ease-in-out;
+    outline: 0;
+    border: none;
+    position: relative;
+    margin: 0 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ee405e;
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  .floatingButton:focus {
+    border: none;
+    outline: 0;
+  }
+  .floatingButton:active {
+    opacity: 0.5;
+    border: none;
+    outline: 0;
+  }
+  .headingsContainer {
+    z-index: 1;
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    h6 {
+      line-height: 200%;
+      color: #ee405e;
+      font-size: 15px;
+      font-family: ProximaNovaBold;
+      //   font-weight: bold;
+    }
+    h1:nth-child(2) {
+      line-height: 90%;
+      font-size: 73px;
+      font-family: ProximaNovaBold;
+    }
+    h1:nth-child(3) {
+      line-height: 90%;
+      font-size: 73px;
+      font-family: ProximaNovaThin;
+    }
+    h5 {
+      line-height: 200%;
+      font-size: 19px;
+      font-family: ProximaNovaRegular;
+    }
+  }
+  .lists {
+    list-style: none;
+    font-family: ProximaNovaBold;
+  }
+  .lists::before {
+    content: "■";
+    color: red;
+    display: inline-block;
+    // margin-top: 10em;
+    width: 1em;
+    margin-left: -1em;
+  }
+  .paragraphContainer {
+    p {
+      font-family: ProximaNovaLight;
+    }
+  }
+  .list {
+    list-style: none;
+    font-family: ProximaNovaLight;
+  }
+  .list::before {
+    content: "■";
+    color: red;
+    display: inline-block;
+    // margin-top: 10em;
+    width: 1em;
+    margin-left: -1em;
+  }
+  .featuresContainer {
+    text-align: center;
+    padding-top: 50px;
+  }
+  .features {
+    vertical-align: top;
+    h6 {
+      font-family: ProximaNovaBold;
+      font-size: 28px;
+      padding-top: 15px;
+    }
+  }
+  .menuButton {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* phones */
+
+  .mainContainer {
+    background-image: url("../../Assets/University-of-St-Thomas-Commencement.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    min-height: 82vh;
+    position: relative;
+    width: 100%;
+  }
+  .mainContainer::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+  }
+   .floatingContainer {
+    position: fixed;
+    top: 75%;
+    right: 1%;
+    z-index: 1000;
+  }
+  .floatingButton {
+    // display: inline-block;
+    transition: 0.2s ease-in-out;
+    outline: 0;
+    border: none;
+    position: relative;
+    margin: 0 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ee405e;
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  .floatingButton:focus {
+    border: none;
+    outline: 0;
+  }
+  .floatingButton:active {
+    opacity: 0.5;
+    border: none;
+    outline: 0;
+  }
+  .headingsContainer {
+    z-index: 1;
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    h6 {
+      line-height: 200%;
+      color: #ee405e;
+      font-size: 15px;
+      font-family: ProximaNovaBold;
+      //   font-weight: bold;
+    }
+    h1:nth-child(2) {
+      line-height: 90%;
+      font-size: 73px;
+      font-family: ProximaNovaBold;
+    }
+    h1:nth-child(3) {
+      line-height: 90%;
+      font-size: 73px;
+      font-family: ProximaNovaThin;
+    }
+    h5 {
+      line-height: 200%;
+      font-size: 19px;
+      font-family: ProximaNovaRegular;
+    }
+  }
+  .lists {
+    list-style: none;
+    font-family: ProximaNovaBold;
+  }
+  .lists::before {
+    content: "■";
+    color: red;
+    display: inline-block;
+    // margin-top: 10em;
+    width: 1em;
+    margin-left: -1em;
+  }
+  .paragraphContainer {
+    p {
+      font-family: ProximaNovaLight;
+    }
+  }
+  .list {
+    list-style: none;
+    font-family: ProximaNovaLight;
+  }
+  .list::before {
+    content: "■";
+    color: red;
+    display: inline-block;
+    // margin-top: 10em;
+    width: 1em;
+    margin-left: -1em;
+  }
+  .featuresContainer {
+    text-align: center;
+    padding-top: 50px;
+  }
+  .features {
+    vertical-align: top;
+    h6 {
+      font-family: ProximaNovaBold;
+      font-size: 28px;
+      padding-top: 15px;
+    }
+  }
+  .menuButton {
+    display: flex;
+    height: 50px !important;
+    background-color: white;
+
+    text-align: center;
+    .togButton {
+      margin-top: 10px;
+      margin-right: 130px;
+      margin-left: 20px;
+      button {
+        background-color: transparent !important;
+        border: none !important;
+        color: red !important;
+        font-size: 20px;
+        font-weight: 800;
+      }
+    }
+  }
+}

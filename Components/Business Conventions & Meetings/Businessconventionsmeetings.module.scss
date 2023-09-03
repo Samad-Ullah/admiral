@@ -1,0 +1,166 @@
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+  .mainContainer {
+    background-image: url("../../Assets/images (3).png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    min-height: 82vh;
+    position: relative;
+    width: 100%;
+  }
+  .mainContainer::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+  }
+  .aligncenter {
+    text-align: center;
+    justify-items: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+  }
+  .heading {
+    font-weight: 500;
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+  }
+  .heading1 {
+    font-weight: 500;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+  .subheading {
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #727070;
+  }
+
+  .text {
+    color: #727070;
+    width: 100%;
+    font-size: 0.95rem;
+    font-weight: 300;
+  }
+  .headingbold {
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .aligncontent {
+    justify-items: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    text-align: left;
+  }
+  .text1 {
+    color: #727070;
+    width: 80%;
+  }
+  .menuButton {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* phones */
+  .mainContainer {
+    background-image: url("../../Assets/images (3).png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+  }
+  .mainContainer::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+  }
+  .aligncenter {
+    text-align: center;
+    justify-items: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+  }
+  .heading {
+    font-weight: 500;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  .heading1 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .subheading {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #727070;
+    text-align: center;
+  }
+
+  .text {
+    color: #727070;
+    width: 100%;
+    font-size: 0.95rem;
+    font-weight: 300;
+    text-align: center;
+  }
+  .headingbold {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .aligncontent {
+    justify-items: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    text-align: left;
+  }
+  .text1 {
+    color: #727070;
+    width: 90%;
+    text-align: center;
+  }
+
+  .menuButton {
+    display: flex;
+    height: 50px !important;
+    background-color: white;
+
+    text-align: center;
+    .togButton {
+      margin-top: 10px;
+      margin-right: 130px;
+      margin-left: 20px;
+      button {
+        background-color: transparent !important;
+        border: none !important;
+        color: red !important;
+        font-size: 20px;
+        font-weight: 800;
+      }
+    }
+  }
+}

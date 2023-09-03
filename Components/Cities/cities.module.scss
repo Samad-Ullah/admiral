@@ -1,0 +1,213 @@
+@media only screen and (min-width: 768px) and (max-width: 1500px) {
+  .images {
+    margin: 1px 5px !important;
+    width: 23vw !important;
+    box-shadow: 0px 0px 3px 1px black;
+  }
+}
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+  .mainContainer {
+    background-color: #ffffff;
+    padding-top: 70px;
+  }
+  .heading {
+    text-align: center;
+    font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+    color: black;
+    font-size: 42px;
+  }
+  .designContainer {
+    text-align: center;
+    img:nth-child(1) {
+      transform: scaleX(-1);
+    }
+    span {
+      display: inline-block;
+      width: 100px;
+      height: 4px;
+      border-top: 2px solid #e5e5e5;
+    }
+    span:nth-child(2) {
+      margin-right: 15px;
+      margin-left: 10px;
+    }
+    span:nth-child(4) {
+      margin-right: 10px;
+      margin-left: 15px;
+    }
+  }
+  .imagesContainer {
+    text-align: center;
+    padding-top: 30px;
+  }
+  .images {
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+    margin: 1px 5px;
+    height: 61vh;
+    width: 23vw;
+    overflow: hidden;
+    transition: 0.3s linear;
+    height: 13rem;
+    width: 13rem;
+    h4 {
+      font: 24px AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+      color: white;
+      background: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      transform: scale(0);
+      opacity: 0;
+      transition: 0.3s linear;
+    }
+    img {
+      height: 100%;
+      width: 100%;
+    }
+    h4 {
+      transform: scale(1);
+      opacity: 1;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+    }
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  .cities_name {
+    font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+  }
+}
+@media only screen and (min-width: 468px) and (max-width: 874px) {
+  .images {
+    width: 30vw !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* phones */
+  .mainContainer {
+    background-color: #ffffff;
+    padding-top: 70px;
+  }
+  .heading {
+    text-align: center;
+    font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+    color: black;
+    font-size: 42px;
+  }
+  .designContainer {
+    text-align: center;
+    img:nth-child(1) {
+      transform: scaleX(-1);
+    }
+    span {
+      display: inline-block;
+      width: 100px;
+      height: 4px;
+      border-top: 2px solid #e5e5e5;
+    }
+    span:nth-child(2) {
+      margin-right: 15px;
+      margin-left: 10px;
+    }
+    span:nth-child(4) {
+      margin-right: 10px;
+      margin-left: 15px;
+    }
+  }
+  .imagesContainer {
+    text-align: center;
+    padding-top: 30px;
+  }
+  .images {
+    display: inline-block;
+    position: relative;
+    margin: 1rem;
+    overflow: hidden;
+    transition: 0.3s linear;
+    height: 13rem;
+    width: 13rem;
+    h4 {
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+      color: white;
+      font-size: 24px;
+      background: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      transform: scale(0);
+      opacity: 0;
+      transition: 0.3s linear;
+    }
+    img {
+      height: 100%;
+      width: 100%;
+    }
+    h4 {
+      transform: scale(1);
+      opacity: 1;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+    }
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+// cities image re-design
+
+@media only screen and (max-width: 767px) {
+  .images {
+    border-radius: 14px !important;
+    width: 38vw !important;
+    margin: 3px !important;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .imagesContainer {
+    height: 55.5rem;
+    overflow: scroll;
+  }
+  .imagesContainer::-webkit-scrollbar-thumb {
+    background: #8080808c;
+  }
+  .imagesContainer::-webkit-scrollbar {
+    max-width: 3px !important;
+  }
+
+  .images {
+    height: 17rem !important;
+    width: 27rem !important;
+    border-radius: 13px !important;
+    box-shadow: 0px 0px 3px 1px black !important;
+    margin: 0px;
+    margin-bottom: 3px !important;
+  }
+}
+@media only screen and (max-width: 469px) {
+  .images {
+    max-height: 30vh !important;
+    height: 30vh !important;
+    width: 88vw !important;
+  }
+  .imagesContainer {
+    height: 102vh;
+  }
+}
+
+// end cities image re-design

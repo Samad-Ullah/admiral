@@ -1,0 +1,92 @@
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+  .main {
+    text-align: center;
+    .heading {
+      align-items: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      // margin-top: 6rem;
+    }
+    .car {
+      margin-bottom: 1rem;
+    }
+    .text_block {
+      position: absolute;
+      bottom: 6rem;
+      right: 3rem;
+      left: 2rem;
+      color: #fff;
+    }
+    .city {
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: white;
+    }
+  }
+  .button {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    color: white;
+    background-color: #ee405e;
+    border: transparent;
+    margin-top: 3rem;
+    border-radius: unset;
+  }
+  .button:hover{
+    background-color: #ee405e;
+  }
+  .button:focus{
+    background-color: #ee405e;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  //   /* phones */
+  .main {
+    align-content: center;
+    // margin-top: -2.9rem;
+    margin-bottom: 2.9rem;
+    .heading {
+      align-items: center;
+      font-size: 1.3rem;
+      width: 90%;
+      font-weight: bold;
+      // margin-top: 6rem;
+    }
+    .car {
+      margin-bottom: 1rem;
+    }
+    .text_block {
+      position: absolute;
+      bottom: 6rem;
+      right: 3rem;
+      left: 2rem;
+      color: #fff;
+    }
+    .city {
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: white;
+    }
+  }
+  .button {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    color: white;
+    background-color: #ee405e;
+    border: transparent;
+    margin-top: 1.2rem;
+    border-radius: unset;
+  }
+  .button:hover{
+    background-color: #ee405e;
+  }
+  .button:focus{
+    background-color: #ee405e;
+  }
+  .imgset{
+    width: 100%;
+    height: 100%;
+  }
+}

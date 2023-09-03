@@ -1,0 +1,22 @@
+@media only screen and (min-width: 768px) {
+    // FOR DESKTOP AND TABLET
+.main{
+    margin-top: 2rem;
+    margin-bottom: 2rem;.im{
+        margin-bottom: 3.5rem;
+    }
+}
+
+}
+@media only screen and (max-width: 767px) {
+    /* phones */
+  
+    //   write css here.im{
+        .main{
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            .im{
+                margin-bottom: 2.5rem;
+            }
+        }
+}

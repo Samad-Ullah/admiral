@@ -1,0 +1,33 @@
+.featuresContainer {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.features {
+  vertical-align: top;
+  h6:nth-child(1) {
+    font-family: ProximaNovaBold;
+    font-size: 24px;
+    padding-top: 15px;
+    color: #EE405E;
+  }
+  h6:nth-child(3) {
+    font-family: ProximaNovaLight;
+    font-size: 17px;
+    padding-top: 15px;
+    color: #636363;
+  }
+  span{
+    text-align: center;
+    display: inline-block;
+    width: 90%;
+    height: 20px;
+    border-bottom:2px solid #e5e5e5;
+  }
+  h2{
+    text-align: center;
+    font-size: 32px;
+    font-family: ProximaNovaRegular;
+  }
+}
+

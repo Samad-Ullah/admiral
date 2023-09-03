@@ -1,0 +1,61 @@
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+  .navbar_border {
+    border-bottom: 1px solid gray;
+  }
+  .navbarset {
+    padding-right: 5rem;
+    padding-left: 5rem;
+    background-color: #101820 !important;
+  }
+
+  .headerImage {
+    width: 110px;
+    margin-bottom: -20px;
+  }
+  .logo_text {
+    color: white;
+    font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+  }
+
+  .divider {
+    border-left: 1px solid black;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding-bottom: 0.9rem;
+  }
+  .NavItem {
+    margin: 0.5rem;
+    color: white;
+  }
+  .NavLink {
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    background: none !important;
+    cursor: pointer;
+  }
+  .dropdown {
+    & button {
+      background: transparent !important;
+      border: none;
+      font-size: 0.8rem;
+    }
+  }
+}
+.resizeFont{
+  font-size: 14px;
+}
+.cityNames{
+  color: "black";
+}
+.cityNames:hover {
+  background-color: #06101a;
+}
+@media only screen and (max-width: 767px) {
+  /* phones */
+  //   write css here
+  .navbar_border {
+    display: none !important;
+  }
+}

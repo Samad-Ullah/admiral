@@ -1,0 +1,26 @@
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+  .mainContainer {
+    height: 100%;
+    width: 100%;
+    h2 {
+      padding: 60px 0;
+      font-size: 44px;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* phones */
+
+  .mainContainer {
+    height: 100%;
+    width: 100%;
+    // margin-top: 50px;
+    h2 {
+      padding: 60px 0;
+      font-size: 44px;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+    }
+  }
+}

@@ -1,0 +1,453 @@
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+  .main_container {
+    max-width: 100% !important;
+    .background {
+      background-color: #f0f2f7;
+    }
+    .head {
+      text-align: left;
+      font-size: 2.1rem;
+      font-weight: 600;
+      color: #111d29;
+      margin-top: 1rem;
+    }
+    .texthead {
+      text-align: left;
+      font-size: 0.7rem;
+      color: #111d29;
+    }
+    .textlink {
+      text-align: right;
+      font-size: 0.9rem;
+    }
+    .textaccount {
+      font-size: 1rem;
+      margin-top: 1rem;
+      color: #ee405e;
+    }
+    .container_right {
+      background-image: url("../../Assets/footer-image.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 35rem;
+      .overly {
+        background-color: #00000097;
+        height: 100%;
+        text-align: left;
+        padding-left: 2rem;
+        padding-top: 2rem;
+
+        & h1 {
+          color: white;
+          font-size: 2rem;
+          font-weight: 700;
+        }
+        .details_container {
+          margin-left: 3rem;
+          margin-top: 9rem;
+          margin-bottom: 7rem;
+          & .transport {
+            color: white;
+            font-weight: 700;
+            font-size: 2.2rem;
+          }
+          & .service {
+            color: white;
+            font-weight: 400;
+            font-size: 2.2rem;
+          }
+          & .world {
+            color: #ee405e;
+            font-weight: 700;
+            font-size: 1.8rem;
+          }
+        }
+      }
+      .divider {
+        color: white;
+        background-color: white;
+        width: 34%;
+        margin-left: 0.1rem;
+      }
+    }
+    .container_left {
+      background-color: #f0f2f7;
+      padding: 0 !important;
+
+      margin-top: 4rem;
+    }
+
+    .cardPayment {
+      border-radius: 0.5rem !important;
+      height: auto !important;
+      width: 50%;
+      margin: auto;
+      border: none;
+
+      .headingMain {
+        color: #707070;
+        font-size: 1.5rem;
+        font-weight: bold;
+        float: left !important;
+      }
+      .verifCode {
+        text-align: center !important;
+        .otp{
+          width: 100% !important;
+          margin-bottom: 2rem;
+        }
+      }
+    }
+
+    .buttonPayment {
+      width: 100%;
+      height: 3rem;
+      background-color: #f42c37 !important ;
+      color: white !important;
+      border: none !important;
+      border-radius: 0.5rem !important;
+      padding-top: 0.3rem !important;
+      padding-bottom: 0.3rem !important;
+      font-size: 1rem !important;
+      filter: drop-shadow(1px 5px 5px rgba(75, 56, 56, 0.192));
+    }
+    .label {
+      color: #707070;
+      font-size: 0.8rem;
+      font-weight: bold;
+      float: left;
+      //    margin-right: 900px;
+    }
+    .icon {
+      margin-top: -1.7rem;
+      margin-left: 0.6rem;
+      float: left;
+    }
+    .inputBox1 {
+      background-color: #ffffff;
+      overflow: hidden;
+      text-align: left;
+      height: 55px;
+      border: 2px solid #eeeeee;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      label {
+        margin-left: 10px;
+        font-family: ProximaNovaBold;
+        font-size: 12px;
+      }
+      .input {
+        margin-top: -10px;
+        margin-left: 10px;
+        input {
+          background: transparent;
+          border: none;
+          outline: none;
+        }
+        img {
+          margin-right: 10px;
+        }
+      }
+    }
+    .inputBox {
+      background-color: #f0f2f7;
+      overflow: hidden;
+      color: #6b6f75;
+      text-align: left;
+      height: 55px;
+      border: 2px solid #eeeeee;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      // label {
+      //   margin-left: 10px;
+      //   font-family: ProximaNovaBold;
+      //   font-size: 12px;
+      // }
+      .input {
+        margin-top: 12px;
+        margin-left: 10px;
+        input {
+          background: transparent;
+          border: none;
+          outline: none;
+        }
+      }
+    }
+    .inputBoxwhite1 {
+      background-color: white;
+      overflow: hidden;
+      text-align: left;
+      height: 55px;
+      border: 1px solid #eeeeee;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      label {
+        margin-left: 10px;
+        font-family: ProximaNovaBold;
+        font-size: 12px;
+      }
+      .input {
+        margin-top: -10px;
+        margin-left: 10px;
+        input {
+          background: transparent;
+          border: none;
+          outline: none;
+        }
+      }
+    }
+    .inputBoxwhite {
+      background-color: white;
+      overflow: hidden;
+      color: #6b6f75;
+      text-align: left;
+      height: 55px;
+      border: 1px solid #eeeeee;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      label {
+        margin-left: 10px;
+        font-family: ProximaNovaBold;
+        font-size: 12px;
+      }
+      .input {
+        margin-top: -10px;
+        margin-left: 10px;
+        input {
+          background: transparent;
+          border: none;
+          outline: none;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* phones */
+  .main_container {
+    // max-width: 100% !important;
+    .background {
+      background-color: #f0f2f7;
+    }
+    .setrow {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .head {
+      text-align: center;
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: #111d29;
+      margin-top: 1rem;
+    }
+    .texthead {
+      text-align: left;
+      font-size: 0.7rem;
+      color: #111d29;
+    }
+    .textlink {
+      text-align: right;
+      font-size: 0.9rem;
+    }
+    .textaccount {
+      font-size: 1rem;
+      margin-top: 1rem;
+      color: #ee405e;
+      text-align: center;
+      margin-bottom: -0.5rem;
+    }
+    .text {
+      font-size: 1rem;
+      margin-top: 1rem;
+      text-align: center;
+      margin-bottom: -0.5rem;
+    }
+    .container_right {
+      background-image: url("../../Assets/footer-image.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 12rem;
+      .overly {
+        background-color: #00000097;
+        height: 100%;
+        text-align: center;
+        // padding-left: 2rem;
+        padding-top: 2rem;
+
+        & h1 {
+          color: white;
+          font-size: 1.6rem;
+          font-weight: 700;
+        }
+        .details_container {
+          margin-bottom: 7rem;
+          & .transport {
+            color: white;
+            font-weight: 700;
+            font-size: 1.8rem;
+          }
+          & .service {
+            color: white;
+            font-weight: 300;
+            font-size: 1.8rem;
+          }
+          & .world {
+            color: #ee405e;
+            font-weight: 500;
+            font-size: 1.5rem;
+          }
+        }
+      }
+      .divider {
+        color: white;
+        background-color: white;
+        width: 44%;
+        margin: auto;
+      }
+    }
+    .container_left {
+      background-color: #f0f2f7;
+      padding: 0 !important;
+
+      margin-top: -2rem;
+    }
+
+    .cardPayment {
+      border-radius: 0.5rem !important;
+      height: auto !important;
+      width: 89%;
+      margin: auto;
+      border: none;
+
+      .headingMain {
+        color: #707070;
+        font-size: 1.3rem;
+        font-weight: bold;
+        float: left !important;
+      }
+      .verifCode {
+        text-align: center !important;
+        .otp{
+          width: 100% !important;
+          margin-bottom: 2rem;
+        }
+      }
+    }
+
+    .buttonPayment {
+      width: 100%;
+      height: 2.7rem;
+      background-color: #f42c37 !important ;
+      color: white !important;
+      border: none !important;
+      border-radius: 0.5rem !important;
+      padding-top: 0.3rem !important;
+      padding-bottom: 0.3rem !important;
+      font-size: 1rem !important;
+      filter: drop-shadow(1px 5px 5px rgba(75, 56, 56, 0.192));
+    }
+    .label {
+      color: #707070;
+      font-size: 0.7rem;
+      font-weight: bold;
+      float: left;
+      //    margin-right: 900px;
+    }
+    .inputBox1 {
+      background-color: #ffffff;
+      overflow: hidden;
+      text-align: left;
+      height: 45px;
+      border: 2px solid #eeeeee;
+      margin-bottom: 8px;
+      border-radius: 10px;
+      label {
+        margin-left: 10px;
+        font-family: ProximaNovaBold;
+        font-size: 10px;
+      }
+      .input {
+        margin-top: -10px;
+        margin-left: 10px;
+        input {
+          background: transparent;
+          border: none;
+          outline: none;
+        }
+        img {
+          margin-right: 10px;
+        }
+      }
+    }
+    .inputBox {
+      background-color: #f0f2f7;
+      overflow: hidden;
+      color: #6b6f75;
+      text-align: left;
+      height: 45px;
+      border: 2px solid #eeeeee;
+      margin-bottom: 8px;
+      border-radius: 10px;
+
+      .input {
+        margin-top: 10px;
+        margin-left: 10px;
+        input {
+          background: transparent;
+          border: none;
+          outline: none;
+        }
+      }
+    }
+    .inputBoxwhite1 {
+      background-color: white;
+      overflow: hidden;
+      text-align: left;
+      height: 45px;
+      border: 1px solid #eeeeee;
+      margin-bottom: 8px;
+      border-radius: 10px;
+      label {
+        margin-left: 10px;
+        font-family: ProximaNovaBold;
+        font-size: 10px;
+      }
+      .input {
+        margin-top: -10px;
+        margin-left: 10px;
+        input {
+          background: transparent;
+          border: none;
+          outline: none;
+        }
+      }
+    }
+    .inputBoxwhite {
+      background-color: white;
+      overflow: hidden;
+      color: #6b6f75;
+      text-align: left;
+      height: 45px;
+      border: 1px solid #eeeeee;
+      margin-bottom: 8px;
+      border-radius: 10px;
+      label {
+        margin-left: 10px;
+        font-family: ProximaNovaBold;
+        font-size: 10px;
+      }
+      .input {
+        margin-top: -10px;
+        margin-left: 10px;
+        input {
+          background: transparent;
+          border: none;
+          outline: none;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,626 @@
+@media only screen and (min-width: 768px) {
+  .mainContainer {
+    min-height: 82vh;
+    position: relative;
+    width: 100%;
+  }
+  .mainContainer::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+  }
+   .floatingContainer {
+    position: fixed;
+    top: 75%;
+    right: 1%;
+    z-index: 1000;
+  }
+  .floatingButton {
+    transition: 0.2s ease-in-out;
+    outline: 0;
+    border: none;
+    position: relative;
+    margin: 0 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ee405e;
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  .floatingButton:focus {
+    border: none;
+    outline: 0;
+  }
+  .floatingButton:active {
+    opacity: 0.5;
+    border: none;
+    outline: 0;
+  }
+  .headingsContainer {
+    z-index: 1;
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    h6 {
+      line-height: 200%;
+      color: #ee405e;
+      font-size: 15px;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+    }
+    h1:nth-child(2) {
+      line-height: 90%;
+      font-size: 73px;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+    }
+    h1:nth-child(3) {
+      line-height: 90%;
+      font-size: 73px;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+    }
+    h5 {
+      line-height: 200%;
+      font-size: 19px;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+    }
+  }
+  .menuButton {
+    display: none;
+  }
+  .div_iframe {
+    text-align: center;
+    margin-top: 4rem;
+  }
+}
+.loader {
+  height: 80vh;
+  text-align: center;
+  margin-top: 130px;
+  text-align-last: center;
+  img {
+    width: 170px;
+  }
+
+  .spinner {
+    height: 70px;
+    width: 70px;
+    color: #e73f5e;
+  }
+}
+
+.hoverEffect:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  .properties_Limo {
+    width: 94vw !important;
+    padding-top: 2vh !important;
+  }
+  .mainContainer {
+    position: relative;
+    max-width: 100vw !important;
+    padding: 0;
+    margin: 0;
+  }
+  .mainContainer::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+  }
+   .floatingContainer {
+    position: fixed;
+    top: 75%;
+    right: 1%;
+    z-index: 1000;
+  }
+  .floatingButton {
+    transition: 0.2s ease-in-out;
+    outline: 0;
+    border: none;
+    position: relative;
+    margin: 0 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ee405e;
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  .floatingButton:focus {
+    border: none;
+    outline: 0;
+  }
+  .floatingButton:active {
+    opacity: 0.5;
+    border: none;
+    outline: 0;
+  }
+  .headingsContainer {
+    z-index: 1;
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    h6 {
+      line-height: 200%;
+      color: #ee405e;
+      font-size: 15px;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+    }
+    h1:nth-child(2) {
+      line-height: 90%;
+      font-size: 73px;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+    }
+    h1:nth-child(3) {
+      line-height: 90%;
+      font-size: 73px;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+    }
+    h5 {
+      line-height: 200%;
+      font-size: 19px;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+    }
+  }
+  .menuButton {
+    display: flex;
+    height: 50px !important;
+    background-color: white;
+    position: relative;
+    z-index: 11;
+    text-align: center;
+    .togButton {
+      margin-top: 10px;
+      margin-right: 130px;
+      margin-left: 20px;
+      button {
+        background-color: transparent !important;
+        border: none !important;
+        color: red !important;
+        font-size: 20px;
+        font-weight: 800;
+      }
+    }
+  }
+  .div_iframe {
+    text-align: center;
+    margin-top: 6rem;
+  }
+}
+// Footer
+.message_icon {
+  width: 1.5rem;
+}
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+
+  .main_container_footer {
+    max-width: 90% !important;
+    .background {
+      background-color: #f0f2f7;
+    }
+    .container_right {
+      background-image: url("../Assets/footer-image.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 35rem;
+      .overly {
+        background-color: #00000091;
+        height: 100%;
+        text-align: left !important;
+        padding-left: 2rem;
+        padding-top: 2rem;
+        & h2 {
+          color: white;
+          font-size: 2rem;
+          font-weight: 700;
+          text-align: left;
+        }
+        .details_container {
+          margin-top: 1.5rem;
+          .inner_container {
+            display: flex;
+            & div {
+              margin-right: 2rem;
+            }
+          }
+          & a {
+            text-decoration: none;
+          }
+          & h6 {
+            color: white;
+            font-weight: 700;
+          }
+          & p {
+            color: white;
+          }
+          .phone {
+            width: 1.5rem;
+          }
+          & img {
+            margin-bottom: 0.5rem;
+          }
+        }
+      }
+    }
+    .container_left {
+      background-color: #f0f2f7;
+      padding: 0 !important;
+    }
+    .cardPayment {
+      border: none !important;
+      .headingMain {
+        color: #707070;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: auto;
+      }
+    }
+    .buttonPayment {
+      width: 100%;
+      height: 3rem;
+      background-color: #ee405e !important ;
+      color: white !important;
+      border: none !important;
+      border-radius: 0.5rem !important;
+      padding-top: 0.3rem !important;
+      padding-bottom: 0.3rem !important;
+      font-size: 1rem !important;
+      margin-top: 3rem;
+      font-family: "ProximaNovaBold";
+      filter: drop-shadow(1px 5px 5px rgba(75, 56, 56, 0.192));
+    }
+    .label {
+      color: #707070;
+      font-size: 0.8rem;
+      font-weight: bold;
+      float: left;
+    }
+    .input {
+      font-size: 0.8rem !important;
+      border: none;
+      background-color: #f0f2f7 !important;
+    }
+    .icon {
+      margin-top: -1.7rem;
+      margin-left: 0.6rem;
+      float: left;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* phones */
+  .main_container_footer {
+    overflow: hidden;
+  }
+  .cardPayment {
+    border: none;
+    background: transparent !important;
+    .headingMain {
+      color: #707070;
+      font-size: 1.7rem;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+  .background {
+    padding: 0px 0px !important;
+    padding-bottom: 10px !important;
+    margin: 0px auto !important;
+    width: 900px !important;
+  }
+  .buttonPayment {
+    width: 100%;
+    height: 3rem;
+    background-color: #f42c37 !important ;
+    color: white !important;
+    border: none !important;
+    border-radius: 0.2rem !important;
+    padding-top: 0.3rem !important;
+    padding-bottom: 0.3rem !important;
+    font-size: 1rem !important;
+    filter: drop-shadow(1px 5px 5px rgba(75, 56, 56, 0.192));
+  }
+  .label {
+    color: #707070 !important;
+    font-size: 0.7rem !important;
+    font-weight: bold !important;
+    float: left !important;
+  }
+  .input {
+    font-size: 0.8rem !important;
+  }
+  .icon {
+    margin-top: -1.7rem;
+    margin-left: 0.6rem;
+    float: left;
+  }
+  //   write css here
+  .container_right {
+    background-image: url("../Assets/footer_image_small.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 49rem;
+    text-align: center;
+    color: white;
+    .upLogo {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .phone {
+      width: 27px !important;
+    }
+    .details_container {
+      margin: 38px;
+    }
+    & a {
+      text-decoration: none;
+    }
+    & h6 {
+      color: white;
+      font-weight: 700;
+    }
+    & p {
+      color: white;
+    }
+  }
+}
+
+////Limoooo
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+  .mainContainer_Limo {
+    background-color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .discriptionContainer_Limo {
+    text-align: center;
+  }
+  .heading_Limo {
+    font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+    color: black;
+    font-size: 42px;
+  }
+  .paragraph_Limo {
+    padding-top: 20px;
+    display: inline-block;
+    font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+    width: 92%;
+    font-size: 17px;
+  }
+  .featuresBox_Limo {
+    display: inline-block;
+    width: 90%;
+    padding-top: 10px;
+  }
+  .features2 {
+    margin: 5px 10px;
+    vertical-align: top;
+    color: #727070;
+    text-align: left;
+    display: inline-block;
+    width: 30%;
+  }
+  .features {
+    margin: 5px 10px;
+    vertical-align: top;
+    color: #727070;
+    text-align: left;
+    display: inline-block;
+    width: 30%;
+    p {
+      padding-top: 10px;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+      font-size: 15px;
+      width: 90%;
+      letter-spacing: 0px;
+    }
+  }
+  .propertiesBox_Limo {
+    display: flex;
+    vertical-align: top;
+    justify-content: center;
+  }
+  .properties_Limo {
+    vertical-align: top;
+    padding: 34px 20px;
+    min-height: 376px;
+    box-shadow: 0px 0 5px rgb(1 41 112 / 8%);
+    transition: 0.3s linear;
+    h3 {
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+      font-size: 20px;
+      padding-top: 10px;
+    }
+    p {
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+      font-size: 16px;
+      margin-bottom: 0;
+    }
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 7px 9px 0px #fafafc;
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* phones */
+
+  .mainContainer_Limo {
+    background-color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .discriptionContainer_Limo {
+    text-align: center;
+  }
+  .heading_Limo {
+    font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+    color: black;
+    font-size: 42px;
+  }
+  .paragraph_Limo {
+    padding-top: 20px;
+    display: inline-block;
+    font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+    width: 92%;
+    font-size: 17px;
+  }
+  .featuresBox_Limo {
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .features2 {
+    vertical-align: top;
+    color: #727070;
+    text-align: left;
+    display: inline-block;
+  }
+  .features {
+    margin: 5px 10px;
+    color: #727070;
+    width: 100%;
+    overflow: hidden;
+    p {
+      padding-top: 10px;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+      font-size: 15px;
+      width: 90%;
+      letter-spacing: 0px;
+    }
+  }
+  .propertiesBox_Limo {
+    padding-top: 50px;
+    justify-content: center;
+  }
+  .service_detail {
+    font-size: 16px !important;
+  }
+  .properties_Limo {
+    width: 330px;
+    display: inline-block;
+    h3 {
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+      font-size: 28px;
+      padding-top: 10px;
+    }
+    p {
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+      font-size: 14px;
+    }
+  }
+}
+
+///Partner
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+  .mainContainer_Partner {
+    height: 100%;
+    width: 100%;
+    h2 {
+      padding: 60px 0;
+      font-size: 32px;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+    }
+  }
+}
+.discriptionContainer_Limo::-webkit-scrollbar {
+  width: 3px;
+}
+
+.discriptionContainer_Limo::-webkit-scrollbar-thumb {
+  background: rgba(168, 163, 163, 0.26);
+  border-radius: 0px;
+}
+@media only screen and (max-width: 767px) {
+  /* phones */
+  .mainContainer_Partner {
+    height: 100%;
+    width: 100%;
+    h2 {
+      padding: 60px 0;
+      font-size: 32px;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+    }
+  }
+  .featuresBox_Limo {
+    margin-top: -73px;
+  }
+}
+
+///partner card
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+  .logos_container {
+    margin: 0rem 1rem 1rem 0rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .logo_container {
+      height: 10rem;
+    }
+    h2 {
+      font-size: 0.9rem;
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* phones */
+  .logos_container {
+    margin: 0rem 1rem 1rem 0rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .logo_container {
+      height: 10rem;
+    }
+    h2 {
+      font-size: 0.9rem;
+    }
+  }
+}
+
+///Testimonial
+.mainContainer_Testimonial {
+  background: #f0f2f7;
+  max-width: 100vw;
+  overflow: hidden;
+  h2 {
+    padding-top: 60px;
+    font-size: 32px;
+    font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+  }
+}
+
+//Testomonoa; CArd

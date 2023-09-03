@@ -1,0 +1,317 @@
+@media only screen and (min-width: 1000px) {
+  //   // FOR DESKTOP AND TABLET
+  .heroDesc {
+    display: none;
+  }
+  .heroDescHd {
+    display: block;
+  }
+  .mainDiv {
+    background-position: bottom;
+    background-repeat: no-repeat;
+    min-height: 82vh;
+    background-size: cover;
+    position: absolute;
+    width: 100vw;
+    overflow: hidden;
+    z-index: -1;
+  }
+
+  .mainContainer {
+    min-height: 82vh;
+    position: relative;
+    width: 100%;
+    z-index: 111;
+  }
+
+  .headingsContainer {
+    z-index: 111;
+    color: white;
+    position: absolute;
+    left: 7%;
+    top: 50%;
+    width: 48%;
+    transform: translateY(-50%);
+
+    .moto {
+      line-height: normal !important;
+      font-size: 19px !important;
+      font-family: ProximaNovaRegular !important;
+      color: white !important;
+
+      p {
+        line-height: 200% !important;
+        font-size: 19px !important;
+        font-family: ProximaNovaRegular !important;
+        color: #fff !important;
+
+        a {
+          font-family: ProximaNovaRegular !important;
+          color: #fff !important;
+        }
+
+        img {
+          width: 4rem;
+          height: 4rem;
+        }
+      }
+    }
+
+    p {
+      line-height: normal;
+      color: #ee405e;
+      font-size: 15px;
+      font-family: ProximaNovaBold;
+      //   font-weight: bold;
+    }
+
+    h1:nth-child(2) {
+      line-height: 90%;
+      font-size: 38px;
+      font-family: ProximaNovaBold;
+    }
+
+    h1:nth-child(3) {
+      line-height: 90%;
+      font-size: 48px;
+      font-family: ProximaNovaBold;
+    }
+
+    .des {
+      width: 70%;
+      font-size: 16px;
+      font-family: ProximaNovaRegular;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 999px) {
+  //   /* phones */
+
+  .heroDesc p {
+    color: white;
+    background: transparent;
+    background-color: black;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    line-height: normal;
+    text-align: left;
+    display: block;
+    font-size: 19px !important;
+    font-family: ProximaNovaRegular !important;
+  }
+  .heroDescHd {
+    display: none;
+  }
+  .mainDiv {
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    min-height: 82vh;
+
+    position: absolute;
+
+    width: 100vw;
+    overflow: hidden;
+    z-index: -1;
+  }
+
+  .mainContainer {
+    text-align: center;
+    padding-bottom: 40px;
+    position: relative;
+    z-index: 111;
+    width: 100%;
+  }
+
+  .headingsContainer {
+    color: white;
+    width: 95%;
+    text-align: center;
+    margin-top: 5rem;
+    z-index: 11;
+    display: inline-block;
+
+    p {
+      line-height: 200% !important;
+      font-size: 19px !important;
+      font-family: ProximaNovaRegular !important;
+      color: #fff !important;
+      text-align: left;
+      padding: 0 0.5rem;
+    }
+
+    h1:nth-child(2) {
+      line-height: 90%;
+      font-size: 2.3rem;
+      font-family: ProximaNovaBold;
+      text-align: left;
+      padding: 0 0.5rem;
+    }
+    h1:nth-child(3) {
+      line-height: 90%;
+      font-size: 2.3rem;
+      font-family: ProximaNovaBold;
+      text-align: center;
+    }
+
+    .des {
+      width: 100%;
+      font-size: 16px;
+      text-align: center;
+      font-family: ProximaNovaRegular;
+    }
+
+    .moto {
+      line-height: 150% !important;
+      font-size: 1rem !important;
+      font-family: ProximaNovaRegular !important;
+      color: white !important;
+      margin: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  //   /* phones */
+  .heroDesc p {
+    color: white;
+    background: transparent;
+    background-color: black;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    line-height: normal;
+    text-align: left;
+    display: block;
+    font-size: 19px !important;
+  }
+  .heroDescHd {
+    display: none !important;
+  }
+  .mainDiv {
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    min-height: 82vh;
+
+    position: absolute;
+
+    width: 100vw;
+    overflow: hidden;
+    z-index: -1;
+  }
+
+  .mainContainer {
+    text-align: center;
+    padding-bottom: 40px;
+    position: relative;
+    z-index: 111;
+    width: 100%;
+  }
+
+  .headingsContainer {
+    color: white;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 0.5rem;
+    text-align: left;
+    margin-top: 1rem;
+    z-index: 11;
+    display: inline-block;
+
+    p {
+      line-height: 200% !important;
+      font-size: 19px !important;
+      font-family: ProximaNovaRegular !important;
+      color: #fff !important;
+    }
+
+    h1:nth-child(2) {
+      line-height: 90%;
+      font-size: 1.3rem;
+      font-family: ProximaNovaBold;
+      text-align: left;
+      padding-left: 0.5rem;
+    }
+
+    h1:nth-child(3) {
+      line-height: 90%;
+      font-size: 2.3rem;
+      font-family: ProximaNovaBold;
+      text-align: center;
+    }
+
+    .des {
+      width: 100%;
+      font-size: 16px;
+      text-align: center;
+      font-family: ProximaNovaRegular;
+    }
+
+    .moto {
+      line-height: 150% !important;
+      font-size: 1rem !important;
+      font-family: ProximaNovaRegular !important;
+      color: white !important;
+      margin: auto;
+      overflow: hidden;
+      height: 14rem;
+    }
+  }
+}
+
+//Hero h1, p start
+
+@media screen and (max-width: 1124px) {
+  .home_h1 {
+    padding-bottom: 1%;
+    font-size: 36px !important;
+    font-family: ProximaNovaBold;
+  }
+}
+
+@media screen and (max-width: 1088px) {
+  .home_h1 {
+    padding-bottom: 1%;
+    font-size: 32px !important;
+    font-family: ProximaNovaBold;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1055px) {
+  .home_h1 {
+    font-size: 25px !important;
+    padding-bottom: 1%;
+
+    font-family: ProximaNovaBold;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1022px) {
+  .home_h1 {
+    font-size: 25px !important;
+    padding-bottom: 1%;
+
+    font-family: ProximaNovaBold;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1155px) {
+  .moto {
+    width: 41.6vw !important;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .headingsContainer {
+    background-color: black;
+    opacity: 0.7;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 12px;
+  }
+}
+
+//Hero home h1, p

@@ -1,0 +1,197 @@
+// @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@media only screen and (min-width: 768px) {
+  .testimonialContainer {
+    padding-top: 50px;
+    height: 100%;
+  }
+
+  .testimonial_details {
+    font-size: 15px;
+    font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+  }
+
+  .testimonial {
+    position: relative;
+    background: #ffffff;
+    padding: 20px 30px;
+    min-height: 202px;
+    min-width: 29vw;
+
+    h6 {
+      text-align: left;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+    }
+
+    h6:nth-child(1) {
+      color: #777777;
+      color: #777777;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+      margin: 0;
+      min-height: 118px;
+    }
+
+    h6:nth-child(2) {
+      padding-top: 10px;
+      font-size: 18px;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+      font-weight: bold;
+      color: #ee405e;
+      margin: 0;
+    }
+
+    h6:nth-child(3) {
+      font-size: 12px;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+      font-weight: 400;
+      color: #777777;
+    }
+  }
+
+  .testimonial::after {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 50px solid white;
+    border-right: 40px solid transparent;
+    top: 101%;
+    left: 22%;
+    content: "";
+    transform: rotate(14deg);
+    margin-top: -10px;
+  }
+
+  .imageContainer {
+    text-align: left;
+    margin-top: 34px;
+    margin-left: -287px;
+
+    & img {
+      clip-path: circle(50% at 50% 50%);
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+}
+
+.testimonial {
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px black;
+  width: 29vw;
+  min-width: 29vw;
+}
+
+.imageContainer {
+  height: 50px;
+  width: 50px;
+  border-radius: 64px;
+  box-shadow: 0px 0px 3px 0px black;
+}
+
+@media only screen and (max-width: 767px) {
+  .testimonialContainer {
+    padding-top: 50px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .imageContainer {
+    height: 79px;
+    width: 79px;
+    border-radius: 48px;
+    -webkit-box-shadow: 0px 0px 3px 0px black;
+    box-shadow: 0px 0px 3px 3px #00000054;
+  }
+
+  .testimonial {
+    position: relative;
+    background: #ffffff;
+    border: 1px solid #e7e7e7;
+    width: 320px;
+    min-width: 29vw;
+
+    padding: 20px 30px;
+
+    h6 {
+      text-align: center;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+    }
+
+    h6:nth-child(1) {
+      color: #777777;
+      color: #777777;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+      margin: 0;
+      min-height: 118px;
+    }
+
+    h6:nth-child(2) {
+      padding-top: 10px;
+      font-size: 18px;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+      font-weight: bold;
+      color: #ee405e;
+      margin: 0;
+    }
+
+    h6:nth-child(3) {
+      font-size: 12px;
+      font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif;
+      font-weight: 400;
+      color: #777777;
+    }
+  }
+
+  .testimonial::after {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 50px solid white;
+    border-right: 40px solid transparent;
+    top: 101%;
+    left: 22%;
+    content: "";
+    transform: rotate(14deg);
+    margin-top: -10px;
+  }
+
+  .imageContainer {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 25px;
+
+    & img {
+      clip-path: circle(50% at 50% 50%);
+      width: 5rem;
+      height: 5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .testimonial {
+    min-width: 44vw;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .testimonial {
+    min-width: 0vw;
+  }
+
+  .imageContainer {
+    margin-left: -293px !important;
+  }
+}
+
+@media only screen and (max-width: 1181px) {
+  .imageContainer {
+    margin-left: -231px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .testimonial {
+    min-width: 50vw;
+  }
+}

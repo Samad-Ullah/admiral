@@ -1,0 +1,163 @@
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+  .mainContainer {
+ 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 45vh;
+    position: relative;
+    width: 100%;
+  }
+  .mainContainer::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+  }
+  .floatingContainer {
+    position: fixed;
+    top: 75%;
+    right: 1%;
+    z-index: 1000;
+  }
+  .floatingButton {
+    // display: inline-block;
+    transition: 0.2s ease-in-out;
+    outline: 0;
+    border: none;
+    position: relative;
+    margin: 0 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ee405e;
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  .floatingButton:focus {
+    border: none;
+    outline: 0;
+  }
+  .floatingButton:active {
+    opacity: 0.5;
+    border: none;
+    outline: 0;
+  }
+  .headingsContainer {
+    z-index: 1;
+    color: white;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    h1 {
+      font-family: ProximaNovaBold;
+      font-size: 70px;
+    }
+  }
+  .menuButton {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* phones */
+  .mainContainer {
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 82vh;
+    position: relative;
+    width: 100%;
+  }
+  .mainContainer::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+  }
+   .floatingContainer {
+    position: fixed;
+    top: 75%;
+    right: 1%;
+    z-index: 1000;
+  }
+  .floatingButton {
+    // display: inline-block;
+    transition: 0.2s ease-in-out;
+    outline: 0;
+    border: none;
+    position: relative;
+    margin: 0 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ee405e;
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  .floatingButton:focus {
+    border: none;
+    outline: 0;
+  }
+  .floatingButton:active {
+    opacity: 0.5;
+    border: none;
+    outline: 0;
+  }
+  .headingsContainer {
+    z-index: 1;
+    color: white;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    h1 {
+      font-family: ProximaNovaBold;
+      font-size: 70px;
+    }
+  }
+
+  .menuButton {
+    display: flex;
+    height: 50px !important;
+    background-color: white;
+
+    text-align: center;
+    .togButton {
+      margin-top: 10px;
+      margin-right: 130px;
+      margin-left: 20px;
+      button {
+        background-color: transparent !important;
+        border: none !important;
+        color: red !important;
+        font-size: 20px;
+        font-weight: 800;
+      }
+    }
+  }
+}

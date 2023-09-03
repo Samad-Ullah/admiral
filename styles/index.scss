@@ -1,0 +1,185 @@
+// Colors
+$white: #ffffff;
+$light: #f3f4f7;
+$dark: #11263c;
+$grey: #a1a9b3;
+$primary: #6f52ed;
+$success: #10ac84;
+$danger: #f42c37;
+$warning: #f5c84c;
+$sourcedBlue: #007bff;
+$lightGrey: #858585;
+$purple: #6f52ed;
+
+@font-face {
+  font-family: ProximaNovaBold;
+  src: url("/Fonts/Proxima\ Nova\ Alt\ Bold.otf");
+}
+@font-face {
+  font-family: ProximaNovaExtraBold;
+  src: url("/Fonts/Proxima\ Nova\ Extrabold.otf");
+}
+@font-face {
+  font-family: ProximaNovaThin;
+  src: url("/Fonts/Proxima\ Nova\ Alt\ Thin.otf");
+}
+@font-face {
+  font-family: ProximaNovaRegular;
+  src: url("/Fonts/ProximaNova-Regular.otf");
+}
+@font-face {
+  font-family: ProximaNovaLight;
+  src: url("/Fonts/Proxima\ Nova\ Alt\ Light.otf");
+}
+
+// Font Style
+$ginger: "Ginger";
+
+html {
+  font-size: initial;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f8faff;
+  font-family: $ginger;
+  overflow-x: hidden;
+  line-height: 1.5;
+  color: black;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+a {
+  color: $primary;
+  text-decoration: none;
+  transition: 0.25s;
+
+  &:hover {
+    text-decoration: none;
+    color: #ee405e !important;
+  }
+}
+
+.btn {
+  border-radius: 7px;
+  font-size: 1rem;
+  padding: 0.5em 1rem;
+  transition: 0.25s;
+}
+
+.btn-dark {
+  background-color: $dark !important;
+  border: 0 !important;
+  box-shadow: 0px 10px 20px #11263c40 !important;
+
+  &:not(:disabled) {
+    &:hover {
+      background-color: darken($color: $dark, $amount: 7.5%) !important;
+    }
+  }
+}
+
+.btn-primary {
+  background-color: $primary !important;
+  border: 0 !important;
+  box-shadow: 0px 10px 20px #6f52ed40 !important;
+
+  &:not(:disabled) {
+    &:hover {
+      background-color: darken($color: $primary, $amount: 7.5%) !important;
+    }
+  }
+}
+
+.btn-success {
+  background-color: #8bf087 !important;
+  border: 0 !important;
+  box-shadow: 0px 10px 20px #8bf08740;
+
+  &:not(:disabled) {
+    &:hover {
+      background-color: darken($color: $success, $amount: 7.5%) !important;
+    }
+  }
+}
+
+.btn-danger {
+  background-color: $danger !important;
+  border: 0 !important;
+  box-shadow: 0px 10px 20px #f2576740 !important;
+
+  &:not(:disabled) {
+    &:hover {
+      background-color: darken($color: $danger, $amount: 7.5%) !important;
+    }
+  }
+}
+
+.btn-warning {
+  background-color: $warning;
+  border: 0 !important;
+  box-shadow: 0px 10px 20px #ffa00040;
+
+  &:not(:disabled) {
+    &:hover {
+      background-color: darken($color: $warning, $amount: 7.5%) !important;
+    }
+  }
+}
+
+.bg-light {
+  background-color: $light;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* border-radius: 10px; */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 0px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #bd8022;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff !important;
+  border: 2px solid #f5c84c !important;
+  background-color: #f5c84c !important;
+  box-shadow: 1px 1px 5px #f5c84c !important;
+}
+
+.custom-control-label {
+  text-align: left;
+  font-size: 15px;
+  letter-spacing: 0.75px;
+  color: #979797;
+  opacity: 1;
+}
+.imageCardContainer {
+  height: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.459);
+  border-radius: 10px;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+.imageCardContainer img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.carCardContainer p {
+  font-size: 12px;
+}

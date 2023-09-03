@@ -1,0 +1,39 @@
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: white !important;
+  background-color: #ee405e;
+  border: none;
+  cursor: pointer;
+  padding: 0px;
+  margin: 0;
+  font-weight: 600;
+  height: 2rem;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link {
+  color: #a6a8ac;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  /* padding: 0 10px; */
+  margin: 0;
+}
+.nav-tabs {
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding-bottom: 20px;
+}
+.nav-link {
+  /* display: block; */
+  padding: 0;
+  background: blue;
+}
+a.nav-link {
+  width: 100%;
+}

@@ -1,0 +1,36 @@
+@media only screen and (min-width: 768px) {
+    // FOR DESKTOP AND TABLET
+    .main{
+    .heading{
+        font-size: 1.4rem;
+        font-weight: bold;  
+        color:#EE405E;
+    }
+    .subheading{
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+    }
+    
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+    .main{
+        margin-top: -3rem;
+        margin-bottom: -1rem;
+        .heading{
+            font-size: 1.1rem;
+            font-weight: bold;  
+            color:#EE405E;
+        }
+        .subheading{
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        
+        }
+    //   write css here
+}

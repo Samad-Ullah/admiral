@@ -1,0 +1,733 @@
+@media only screen and (min-width: 768px) {
+  .mainContainer {
+    font-family: ProximaNovaRegular;
+  }
+  .danger{
+    color: red;
+font-size: 0.8rem;
+margin-top: 0.5rem;
+  }
+  .contentContainer {
+    background-color: white !important;
+    height: 250px;
+    overflow: scroll;
+    h6 {
+      margin: 0px 0px 5px 25px;
+    }
+    p {
+      margin: 0px 0px 0px 25px;
+    }
+    ol {
+      margin: 0px;
+      padding: 0px;
+      li {
+        margin: 0px 0px 0px 25px;
+        padding: 0px;
+      }
+    }
+  }
+  .floatLeft {
+    text-align: left !important;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #575454;
+  }
+  .fleetName {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+  .textAlign {
+    text-align: center;
+  }
+  .payment_method_main {
+    margin-top: 2rem !important;
+    width: 50%;
+    margin: auto;
+    background-color: azure;
+    height: auto;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    & h3 {
+      color: #ee405e;
+      font-family: inherit;
+    }
+    .list_container {
+      text-align: left;
+      margin: 2rem !important;
+      .list_option {
+        cursor: pointer;
+      }
+    }
+  }
+  .select_button {
+    width: 100% !important;
+    background-color: #ee405e !important;
+    border-color: #ee405e !important;
+  }
+  .add_details_button {
+    width: 25% !important;
+    background-color: #ee405e !important;
+    border-color: #ee405e !important;
+  }
+  .confirmBtn {
+    background-color: #ee405e !important;
+  }
+  .checkBoxContainer {
+    display: flex;
+    align-items: center;
+    input {
+      margin-right: 10px;
+    }
+    p {
+      margin: 0px;
+      font: normal normal normal 12px/17px ProximaNovaRegular;
+      letter-spacing: 0px;
+      color: #979797;
+    }
+  }
+  .service {
+    display: none;
+  }
+  .options {
+    display: none;
+  }
+  .payment {
+    display: none;
+  }
+  .checkout {
+    display: none;
+  }
+  .data {
+    margin-top: 40px;
+    padding: 10px 30px 3px 30px;
+    background-color: #212b36;
+    color: #ee405e;
+    h6 {
+      font-family: ProximaNovaRegular;
+      font-size: 20px;
+      .icons {
+        color: white;
+      }
+      .icons:nth-child(2) {
+        margin-left: -10px;
+      }
+    }
+  }
+  .showcase {
+    margin-top: 70px;
+    padding: 50px 30px;
+    border: 2px solid #212b36;
+    display: flex;
+    align-items: center;
+    .imageContainer {
+      width: 20rem;
+    }
+    .info {
+      h6 {
+        span {
+          color: #ee405e;
+        }
+      }
+    }
+  }
+  .priceContainer {
+    margin-top: 70px;
+    border: 2px solid #212b36;
+    .dataContainer {
+      padding: 10px 20px 5px 20px;
+      display: flex;
+      justify-content: space-between;
+      h3:nth-child(2) {
+        font-family: ProximaNovaBold;
+      }
+    }
+    .dataContainer2 {
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      color: #ee405e;
+      h3 {
+        font-family: ProximaNovaBold;
+      }
+    }
+    .dataContainer1 {
+      padding: 10px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      h3:nth-child(2) {
+        font-size: 30px;
+        color: #ee405e;
+      }
+    }
+    .bg {
+      background-color: rgba(238, 64, 94, 1);
+      text-align: center;
+      padding: 10px 10px 3px 10px;
+      h3 {
+        font-family: ProximaNovaBold;
+        color: white;
+      }
+    }
+    h3 {
+      font-size: 18px;
+      font-family: ProximaNovaRegular;
+    }
+  }
+  .types {
+    padding: 0;
+    overflow: hidden;
+  }
+  .cars {
+    overflow: hidden;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .price {
+    height: auto;
+    padding: 10px 10px 10px 10px;
+    background-color: rgba(128, 128, 128, 0.2);
+    h3 {
+      text-align: right;
+    }
+    h6 {
+      text-align: right;
+      color: #64666b;
+      font-size: 13px;
+    }
+    label {
+      cursor: pointer;
+      margin-top: 30px;
+      padding: 10px 50px;
+      background-color: #ee405e;
+      color: white;
+      text-align: center;
+      width: 100%;
+      border-radius: 5px;
+    }
+    input {
+      display: none;
+    }
+    input:checked + label {
+      opacity: 0.5;
+    }
+  }
+  .car {
+    image {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .features {
+    color: #64666b;
+  }
+  .details {
+    h3 {
+      font-family: ProximaNovaBold;
+    }
+    h6 {
+      color: #b2b3b6;
+    }
+  }
+  .detail {
+    padding-left: 100px;
+    padding-right: 100px;
+
+    h3 {
+      font-family: ProximaNovaBold;
+    }
+    h6 {
+      color: #b2b3b6;
+    }
+  }
+  .paymentContainer {
+    text-align: left;
+    width: 550px !important;
+    overflow: hidden;
+  }
+  .inputBox {
+    input {
+      width: 300px;
+      padding: 10px;
+      &::placeholder {
+        color: #b2b3b6;
+      }
+      .danger{
+        color: red;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+      }
+    }
+    textarea {
+      width: 300px;
+      padding: 10px;
+      height: 150px;
+      resize: none;
+      &::placeholder {
+        color: #b2b3b6;
+      }
+    }
+  }
+  .tripleInputBox {
+    display: flex;
+    .inputBox:nth-child(2) {
+      padding-left: 20px;
+      h6 {
+        visibility: hidden;
+      }
+    }
+    .inputBox:nth-child(3) {
+      padding-left: 20px;
+    }
+    .inputBox {
+      .danger{
+        color: red;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+      }
+      input {
+        width: 150px;
+        padding: 10px;
+        &::placeholder {
+          color: #b2b3b6;
+        }
+      }
+    }
+  }
+  .doubleInputBox {
+    display: flex;
+    .inputBox:nth-child(2) {
+      padding-left: 20px;
+    }
+  }
+  .doubleInputBox1 {
+    display: flex;
+    .inputBox {
+      .danger{
+        color: red;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+      }
+      input {
+        width: 200px;
+        padding: 10px;
+        &::placeholder {
+          color: #b2b3b6;
+        }
+      }
+    }
+    .inputBox:nth-child(2) {
+      padding-left: 20px;
+    }
+  }
+  .buttonsContainer {
+    margin: 50px 0;
+    text-align: center;
+    button {
+      border-radius: 5px;
+      color: white;
+      background-color: #ee405e;
+      border: none;
+      opacity: 1;
+      outline: none;
+      padding: 10px 50px;
+      &:nth-child(1) {
+        margin-right: 20px;
+      }
+      &:focus {
+        outline: 0;
+        border: none;
+      }
+      &:active {
+        opacity: 0.5;
+      }
+    }
+  }
+  .menuButton {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  .mainContainer {
+    font-family: ProximaNovaRegular;
+    overflow: hidden;
+  }
+  .danger{
+    color: red;
+font-size: 0.8rem;
+margin-top: 0.5rem;
+  }
+  .textAlign {
+    text-align: center;
+  }
+  .payment_method_main {
+    margin-top: 2rem !important;
+    width: 90%;
+    margin: auto;
+    background-color: azure;
+    height: auto;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+
+    & h3 {
+      color: #ee405e;
+      font-family: inherit;
+    }
+    .list_container {
+      text-align: left;
+      margin: 2rem !important;
+      .list_option {
+        cursor: pointer;
+      }
+    }
+  }
+  .contentContainer {
+    height: 250px;
+    overflow: scroll;
+    h6 {
+      margin: 0px 0px 5px 25px;
+    }
+    p {
+      margin: 0px 0px 0px 25px;
+    }
+    ol {
+      margin: 0px;
+      padding: 0px;
+      li {
+        margin: 0px 0px 0px 25px;
+        padding: 0px;
+      }
+    }
+  }
+  .text_center {
+    text-align: center;
+  }
+  .add_details_button {
+    width: 100% !important;
+    background-color: #ee405e !important;
+    border-color: #ee405e !important;
+  }
+  .select_button {
+    width: 100% !important;
+    background-color: #ee405e !important;
+    border-color: #ee405e !important;
+    margin-bottom: 1rem;
+  }
+  .confirmBtn {
+    background-color: #ee405e !important;
+  }
+  .checkBoxContainer {
+    display: flex;
+    align-items: center;
+    input {
+      margin-right: 10px;
+    }
+    p {
+      margin: 0px;
+      font: normal normal normal 12px/17px ProximaNovaRegular;
+      letter-spacing: 0px;
+      color: #979797;
+    }
+  }
+  .service {
+    display: none;
+  }
+  .options {
+    display: none;
+  }
+  .payment {
+    display: none;
+  }
+  .checkout {
+    display: none;
+  }
+  .data {
+    margin-top: 40px;
+    padding: 10px 30px 3px 30px;
+    background-color: #212b36;
+    color: #ee405e;
+    h6 {
+      font-family: ProximaNovaRegular;
+      font-size: 20px;
+      .icons {
+        color: white;
+      }
+      .icons:nth-child(2) {
+        margin-left: -10px;
+      }
+    }
+  }
+  .showcase {
+    margin-top: 70px;
+    padding: 50px 30px;
+    border: 2px solid #212b36;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .imageContainer {
+      width: 20rem;
+    }
+    .info {
+      h6 {
+        span {
+          color: #ee405e;
+        }
+      }
+    }
+  }
+  .floatLeft {
+    text-align: left !important;
+    font-size: 1.2rem !important;
+    font-weight: 600;
+    color: #575454;
+  }
+  .priceContainer {
+    margin-top: 70px;
+    border: 2px solid #212b36;
+    .dataContainer {
+      padding: 10px 20px 5px 20px;
+      display: flex;
+      justify-content: space-between;
+      h3:nth-child(2) {
+        font-family: ProximaNovaBold;
+      }
+    }
+    .dataContainer2 {
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      color: #ee405e;
+      h3 {
+        font-family: ProximaNovaBold;
+      }
+    }
+    .dataContainer1 {
+      padding: 10px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      h3:nth-child(2) {
+        font-size: 30px;
+        color: #ee405e;
+      }
+    }
+    .bg {
+      background-color: rgba(238, 64, 94, 1);
+      text-align: center;
+      padding: 10px 10px 3px 10px;
+      h3 {
+        font-family: ProximaNovaBold;
+        color: white;
+      }
+    }
+    h3 {
+      font-size: 18px;
+      font-family: ProximaNovaRegular;
+    }
+  }
+  .types {
+    padding: 0 5px;
+    overflow: hidden;
+  }
+  .cars {
+    overflow: hidden;
+    // height: 200px;
+  }
+  .price {
+    height: auto;
+    padding: 10px 10px 10px 10px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: rgba(230, 6, 6, 0.2);
+    h3 {
+      text-align: right;
+    }
+    h6 {
+      text-align: right;
+      color: #64666b;
+      font-size: 13px;
+    }
+    label {
+      cursor: pointer;
+      margin-top: 30px;
+      padding: 10px 50px;
+      background-color: #ee405e;
+      color: white;
+      text-align: center;
+      width: 100%;
+      border-radius: 5px;
+    }
+    input {
+      display: none;
+    }
+    input:checked + label {
+      opacity: 0.5;
+    }
+  }
+  .car {
+    image {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .features {
+    color: #64666b;
+  }
+  .details {
+    h3 {
+      font-family: ProximaNovaBold;
+    }
+    h6 {
+      color: #b2b3b6;
+    }
+  }
+  .detail {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    h3 {
+      font-family: ProximaNovaBold;
+    }
+    h6 {
+      color: #b2b3b6;
+    }
+  }
+  .paymentContainer {
+    text-align: left;
+    // width: 550px !important;
+    padding-left: 20px;
+    overflow: hidden;
+  }
+  .inputBox {
+    input {
+      width: 300px;
+      padding: 10px;
+      &::placeholder {
+        color: #b2b3b6;
+      }
+      .danger{
+        color: red;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+      }
+    }
+    textarea {
+      width: 300px;
+      padding: 10px;
+      height: 150px;
+      resize: none;
+      &::placeholder {
+        color: #b2b3b6;
+      }
+    }
+  }
+  .tripleInputBox {
+    // display: flex;
+    .inputBox:nth-child(2) {
+      // padding-left: 20px;
+      h6 {
+        visibility: hidden;
+      }
+    }
+    // .inputBox:nth-child(3) {
+    //   padding-left: 20px;
+    // }
+    .inputBox {
+      margin-top: 10px;
+      .danger{
+        color: red;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+      }
+      input {
+        width: 150px;
+        padding: 10px;
+        &::placeholder {
+          color: #b2b3b6;
+        }
+      }
+    }
+  }
+  .doubleInputBox {
+    // display: flex;
+    .inputBox:nth-child(2) {
+      margin-top: 10px;
+    }
+  }
+  .doubleInputBox1 {
+    // display: flex;
+    .inputBox {
+      .danger{
+        color: red;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+      }
+      input {
+        width: 200px;
+        padding: 10px;
+        &::placeholder {
+          color: #b2b3b6;
+        }
+      }
+      &:nth-child(2) {
+        margin-top: 10px;
+      }
+    }
+    // .inputBox:nth-child(2) {
+    //   padding-left: 20px;
+    // }
+  }
+  .buttonsContainer {
+    margin: 50px 0;
+    text-align: center;
+    button {
+      border-radius: 5px;
+      color: white;
+      background-color: #ee405e;
+      border: none;
+      opacity: 1;
+      outline: none;
+      padding: 10px 50px;
+      &:nth-child(1) {
+        margin-right: 20px;
+      }
+      &:focus {
+        outline: 0;
+        border: none;
+      }
+      &:active {
+        opacity: 0.5;
+      }
+    }
+  }
+  .fleetName {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .menuButton {
+    display: flex;
+    height: 50px !important;
+    background-color: white;
+
+    text-align: center;
+    .togButton {
+      margin-top: 10px;
+      margin-right: 130px;
+      margin-left: 20px;
+      button {
+        background-color: transparent !important;
+        border: none !important;
+        color: red !important;
+        font-size: 20px;
+        font-weight: 800;
+      }
+    }
+  }
+}

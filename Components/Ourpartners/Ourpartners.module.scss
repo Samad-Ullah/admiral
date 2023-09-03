@@ -1,0 +1,27 @@
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+  .mainContainer_Partner {
+    height: 100%;
+    width: 100%;
+    // margin-top: 50px;
+    h2 {
+      padding: 60px 0;
+      font-size: 32px;
+      font-family: ProximaNovaBold;
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* phones */
+
+  .mainContainer_Partner {
+    height: 100%;
+    width: 100%;
+    // margin-top: 50px;
+    h2 {
+      padding: 60px 0;
+      font-size: 32px;
+      font-family: ProximaNovaBold;
+    }
+  }
+}

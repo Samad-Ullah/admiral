@@ -1,0 +1,94 @@
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+  .heading {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: auto;
+    text-align: center;
+    margin-top: 1rem;
+    font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif !important;
+
+    margin-bottom: 1rem;
+  }
+  .subhead {
+    color: #777777;
+    width: 38%;
+    font-size: 16px;
+    margin-bottom: 3rem;
+    font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif !important;
+  }
+  .question {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ee405e;
+    font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif !important;
+  }
+  .answer {
+    text-align: left;
+    font-size: 16px;
+    color: #777777;
+    font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif !important;
+  }
+  .headingques {
+    margin: auto;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: AvenirNext, Helvetica, Arial, Open Sans, sans-serif !important;
+  }
+  .contact {
+    color: #ee405e;
+  }
+}
+.subhead {
+  width: 100%;
+}
+.ques_ans_div {
+  flex: auto !important;
+  max-width: 100% !important;
+}
+@media only screen and (max-width: 767px) {
+  //   /* phones */
+  .main {
+    width: 100%;
+    overflow: hidden;
+  }
+  .heading {
+    font-size: 18px !important;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .subhead {
+    color: #777777;
+    width: 80%;
+    font-size: 0.9rem;
+    margin-bottom: 3rem;
+  }
+  .question {
+    text-align: left;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-top: -0.2rem;
+    color: #ee405e;
+  }
+  .answer {
+    text-align: left;
+    font-size: 0.9rem;
+    color: #777777;
+  }
+  .headingques {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+  .contact {
+    color: #ee405e;
+  }
+}

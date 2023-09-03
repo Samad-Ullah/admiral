@@ -1,0 +1,47 @@
+@media only screen and (min-width: 768px) {
+    // FOR DESKTOP AND TABLET
+.maincontent{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    .head{
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-top: 2rem;
+    }
+    .text{
+      font-size: 1.1rem;
+      font-weight: 400;
+      color: #727070;
+    }
+    .textbold{
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: black;
+    }
+}
+
+}
+
+@media only screen and (max-width: 767px) {
+  /* phones */
+.maincontent{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  .head{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .text{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #727070;
+  }
+  .textbold{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: black;
+  }
+}
+}
