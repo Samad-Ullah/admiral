@@ -10,6 +10,9 @@
     "analyze": "cross-env BUNDLE_ANALYZE=both next build",
     "postbuild": "cross-env next-sitemap --config next-sitemap.js"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "@google-pay/button-react": "^3.0.5",
     "@hookform/error-message": "^2.0.1",
