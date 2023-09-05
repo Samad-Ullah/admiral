@@ -14,9 +14,11 @@ function Search({ handleSelectedAddress, name }) {
   };
 
   const handleSelect = (address, placeId) => {
+    console.log("Address >>>> ", address);
     setAddress(address);
     geocodeByAddress(address)
       .then((results) => {
+        console.log("Result >>>> ", results);
         return extractLocationInfo(address, results);
       })
       .catch((error) => console.error("Error", error));
@@ -42,7 +44,8 @@ function Search({ handleSelectedAddress, name }) {
       searchOptions={searchOptions}
       value={address}
       onChange={handleChange}
-      onSelect={handleSelect}>
+      onSelect={handleSelect}
+    >
       {({ getInputProps, suggestions, getSuggestionItemProps, loading }) => (
         <div style={{ width: "100%" }}>
           <input
@@ -57,7 +60,8 @@ function Search({ handleSelectedAddress, name }) {
           <div
             className={`${
               suggestions.length > 0 ? styles.dropdown_map_search : ""
-            }`}>
+            }`}
+          >
             {loading && <div>Loading...</div>}
             {suggestions.map((suggestion) => {
               const style = suggestion.active
@@ -82,7 +86,8 @@ function Search({ handleSelectedAddress, name }) {
                   key={Math.random()}
                   {...getSuggestionItemProps(suggestion, {
                     style,
-                  })}>
+                  })}
+                >
                   <img
                     src="/Assets/Icon awesome-map-marker-alt.svg"
                     alt="Map"

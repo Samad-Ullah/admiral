@@ -11,7 +11,7 @@
     "postbuild": "cross-env next-sitemap --config next-sitemap.js"
   },
   "engines": {
-    "node": "16.x"
+    "node": "18.x"
   },
   "dependencies": {
     "@google-pay/button-react": "^3.0.5",
