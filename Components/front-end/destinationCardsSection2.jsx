@@ -58,7 +58,7 @@ const CardsSection2 = () => {
                       fontWeight: "400",
                     }}
                   >
-                    By the Hour Service
+                    By the Hour Service Per Hour
                   </span>
                   <span
                     style={{
