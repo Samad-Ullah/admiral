@@ -277,7 +277,7 @@ function UserDetails({
                       <input
                         type="text"
                         name="cardHolderName"
-                        placeholder="e.g. +1-222-505-3023"
+                        placeholder="e.g. Jhon Doe"
                         className={styles.fields_reDesign}
                         {...register("cardHolderName", {
                           required: "Card holder name is required!",
