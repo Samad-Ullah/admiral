@@ -141,7 +141,7 @@ function Fleet({
                   className={styles.select_button}
                   onClick={selectCarOneWayHourly}
                   disabled={disable}>
-                  Book One Way
+                  Book Now
                 </Button>
               </div>
             ) : (
@@ -179,7 +179,7 @@ function Fleet({
                     className={styles.select_button}
                     onClick={selectCarOneWay}
                     disabled={disable}>
-                    Book One Way
+                    Book Now
                   </Button>
                 </div>
                 <div

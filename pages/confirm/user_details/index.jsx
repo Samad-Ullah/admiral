@@ -132,7 +132,7 @@ function UserDetails({
       if (durationInSeconds < countTotal2X) {
         window.scrollTo(0, 0);
         return setError(
-          "Return trip should be after the trip duration multiplied by 2X"
+          "The return trip Pick-Up time should be after the first trip duration time"
         );
       }
       if (
