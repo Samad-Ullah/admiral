@@ -215,7 +215,7 @@ function UserDetails({
                 <Row style={{ marginTop: 20 }}>
                   <Col xs={12} md={6} lg={4}>
                     <div className={styles.inputBox}>
-                      <h6 className={styles.formText_reDesign}>Book by name</h6>
+                      <h6 className={styles.formText_reDesign}>Book By Name</h6>
                       <input
                         type="text"
                         name="bookByName"
@@ -233,7 +233,7 @@ function UserDetails({
                   <Col xs={12} md={6} lg={4}>
                     <div className={styles.inputBox}>
                       <h6 className={styles.formText_reDesign}>
-                        Booked by email addres
+                        Booked By Email Addres
                       </h6>
                       <input
                         type="text"
@@ -251,7 +251,7 @@ function UserDetails({
                   <Col xs={12} md={6} lg={4}>
                     <div className={styles.inputBox}>
                       <h6 className={styles.formText_reDesign}>
-                        Book by phone
+                        Book By Phone
                       </h6>
                       <input
                         type="text"
@@ -272,7 +272,7 @@ function UserDetails({
                   <Col xs={4} md={4} lg={4}>
                     <div className={styles.inputBox}>
                       <h6 className={styles.formText_reDesign}>
-                        Card holder name
+                        Card Holder Name
                       </h6>
                       <input
                         type="text"
@@ -302,7 +302,7 @@ function UserDetails({
                     }}
                   >
                     <h6 className={styles.formText_reDesign}>
-                      Passenger/ Group’s leader travel name
+                      Passenger/ Group’s Leader Travel Name
                     </h6>
                   </div>
                   <div>
@@ -331,7 +331,7 @@ function UserDetails({
                     }}
                   >
                     <h6 className={styles.formText_reDesign}>
-                      Passenger’s email address
+                      Passenger’s Email Address
                     </h6>
                   </div>
                   <div>
@@ -360,7 +360,7 @@ function UserDetails({
                     }}
                   >
                     <h6 className={styles.formText_reDesign}>
-                      Passanger's phone
+                      Passanger's Phone
                     </h6>
                   </div>
                   <div>
@@ -392,7 +392,7 @@ function UserDetails({
                     }}
                   >
                     <h6 className={styles.formText_reDesign}>
-                      Number of passangers
+                      Number of Passangers
                     </h6>
                   </div>
                   <div>
@@ -416,7 +416,7 @@ function UserDetails({
                     }}
                   >
                     <h6 className={styles.formText_reDesign}>
-                      Flight’s/ Cruise ship details if any
+                      Flight’s/ Cruise Ship Details If Any
                     </h6>
                   </div>
                   <div>
@@ -462,7 +462,7 @@ function UserDetails({
               <Col xs={12}>
                 <div className={styles.inputBox}>
                   <h6 className={styles.formText_reDesign}>
-                    Notes, or any other additional information:
+                    Notes, Or Any Other Additional Information:
                   </h6>
                   <textarea
                     rows={4}
